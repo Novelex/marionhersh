@@ -1,0 +1,404 @@
+/* marionhersh.org — quiet, editorial, accessible.
+   The site remains fully usable with this file disabled. */
+
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  src: url("fonts/atkinson-hyperlegible-latin-400-normal.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  src: url("fonts/atkinson-hyperlegible-latin-400-italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  src: url("fonts/atkinson-hyperlegible-latin-700-normal.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Source Serif 4";
+  src: url("fonts/source-serif-4-latin-600-normal.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Source Serif 4";
+  src: url("fonts/source-serif-4-latin-400-italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+:root {
+  --paper: #f7f4ee;
+  --paper-2: #efe9df;
+  --card: #fcfbf8;
+  --ink: #1f1c18;
+  --ink-2: #4f4a43;
+  --rule: #ddd5c8;
+  --accent: #2e5a4c;
+  --accent-ink: #ffffff;
+  --accent-soft: #e2ebe5;
+  --focus: #b35c00;
+  --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --sans: "Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+  --measure: 40rem;
+  --page: 70rem;
+  color-scheme: light;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 1.125rem;
+  line-height: 1.65;
+}
+
+.wrap {
+  max-width: var(--page);
+  margin: 0 auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+/* Skip link */
+.skip {
+  position: absolute;
+  left: 1rem;
+  top: -10rem;
+  z-index: 10;
+  background: var(--card);
+  color: var(--ink);
+  padding: 0.5rem 0.75rem;
+  border: 2px solid var(--ink);
+}
+.skip:focus {
+  top: 1rem;
+}
+
+/* ---------- Header ---------- */
+.site-header {
+  border-bottom: 1px solid var(--rule);
+}
+.site-header .wrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem 2rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.brand {
+  display: flex;
+  flex-direction: column;
+}
+.site-name {
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  color: var(--ink);
+  text-decoration: none;
+}
+.site-name:hover {
+  color: var(--accent);
+}
+.site-role {
+  margin: 0.15rem 0 0;
+  color: var(--ink-2);
+  font-size: 0.95rem;
+}
+.site-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1.35rem;
+}
+.site-nav li + li {
+  margin-top: 0;
+}
+.site-nav a {
+  display: inline-block;
+  padding: 0.35rem 0;
+  color: var(--ink);
+  font-size: 0.97rem;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+}
+.site-nav a:hover {
+  border-bottom-color: var(--rule);
+}
+.site-nav a[aria-current="page"] {
+  font-weight: 700;
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+/* ---------- Typography ---------- */
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--serif);
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 2.25em 0 0.6em;
+  color: var(--ink);
+}
+h1 {
+  font-size: clamp(2rem, 4vw, 2.75rem);
+  letter-spacing: -0.01em;
+  margin-top: 0;
+}
+h2 {
+  font-size: 1.6rem;
+}
+h3 {
+  font-size: 1.25rem;
+}
+h4 {
+  font-size: 1.1rem;
+}
+
+p,
+ul,
+ol,
+dl,
+table {
+  margin: 0 0 1.1em;
+}
+ul,
+ol {
+  padding-left: 1.4em;
+}
+li + li {
+  margin-top: 0.35em;
+}
+
+a {
+  color: var(--accent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+}
+a:hover {
+  text-decoration-thickness: 2px;
+}
+:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 3px;
+}
+
+.eyebrow {
+  display: block;
+  margin: 0 0 0.75rem;
+  font-family: var(--sans);
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--accent);
+}
+.lede {
+  font-size: 1.25rem;
+  color: var(--ink-2);
+}
+.meta,
+.note,
+small {
+  color: var(--ink-2);
+  font-size: 0.95rem;
+}
+hr {
+  border: 0;
+  border-top: 1px solid var(--rule);
+  margin: 2.5rem 0;
+}
+main a {
+  overflow-wrap: anywhere;
+}
+
+/* Buttons */
+.button {
+  display: inline-block;
+  padding: 0.7rem 1.2rem;
+  border: 2px solid var(--accent);
+  border-radius: 3px;
+  background: var(--accent);
+  color: var(--accent-ink);
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.3;
+  text-decoration: none;
+}
+.button:hover {
+  background: #23473c;
+  border-color: #23473c;
+}
+.button.secondary {
+  background: transparent;
+  color: var(--accent);
+}
+.button.secondary:hover {
+  background: var(--accent-soft);
+}
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.75rem;
+}
+.more {
+  font-weight: 700;
+  text-decoration: none;
+}
+.more::after {
+  content: " →";
+}
+.more:hover {
+  text-decoration: underline;
+}
+
+/* ---------- Inner pages ---------- */
+main.wrap {
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+}
+main.wrap > * {
+  max-width: var(--measure);
+}
+
+.toc {
+  background: var(--paper-2);
+  border-radius: 4px;
+  padding: 1.1rem 1.4rem;
+  margin: 0 0 2.5rem;
+}
+.toc h2 {
+  font-family: var(--sans);
+  font-size: 0.9rem;
+  letter-spacing: 0.04em;
+  margin: 0 0 0.5rem;
+  color: var(--ink-2);
+}
+.toc ul,
+.toc ol {
+  margin: 0;
+  padding-left: 1.1em;
+  font-size: 1rem;
+}
+.toc li + li {
+  margin-top: 0.2em;
+}
+
+.refs {
+  list-style: none;
+  padding-left: 0;
+}
+.refs li {
+  padding-left: 1.5em;
+  text-indent: -1.5em;
+}
+.refs li + li {
+  margin-top: 0.8em;
+}
+.paper-refs {
+  font-size: 0.95rem;
+}
+.paper-refs li + li {
+  margin-top: 0.5em;
+}
+
+.speaker {
+  font-weight: 700;
+}
+
+.callout {
+  background: var(--card);
+  border: 1px solid var(--rule);
+  border-left: 4px solid var(--accent);
+  border-radius: 4px;
+  padding: 1.25rem 1.5rem;
+  margin: 0 0 1.75rem;
+}
+.callout > :last-child {
+  margin-bottom: 0;
+}
+.callout h2,
+.callout h3 {
+  margin-top: 0;
+}
+
+details {
+  background: var(--card);
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  padding: 0.85rem 1.25rem;
+  margin: 0 0 1.75rem;
+}
+summary {
+  cursor: pointer;
+  font-weight: 700;
+  color: var(--accent);
+}
+details[open] summary {
+  margin-bottom: 1rem;
+}
+details h3 {
+  margin-top: 0;
+}
+
+.table-scroll {
+  overflow-x: auto;
+  margin: 0 0 1.5em;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.95rem;
+}
+caption {
+  text-align: left;
+  font-weight: 700;
+  padding-bottom: 0.5rem;
+}
+th,
+td {
+  border-bottom: 1px solid var(--rule);
+  padding: 0.45rem 0.6rem 0.45rem 0;
+  text-align: left;
+  vertical-align: top;
+}
+td.num,
+th.num {
+  text-align: right;
+}
+thead th {
+  border-bottom: 2px solid var(--ink);
+}
+tbody th[scope="row"] {
+  font-weight: 400;
+}
+
