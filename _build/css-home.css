@@ -44,11 +44,11 @@
   max-width: 34rem;
 }
 .hero-art {
-  max-width: 26rem;
+  max-width: 30rem;
   width: 100%;
   justify-self: end;
 }
-.hero-art svg {
+.hero-art img {
   display: block;
   width: 100%;
   height: auto;
@@ -266,7 +266,7 @@
   }
   .hero-art {
     justify-self: start;
-    max-width: 22rem;
+    max-width: 30rem;
   }
   .studies {
     grid-template-columns: minmax(0, 1fr);
