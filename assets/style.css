@@ -32,6 +32,7 @@
   --link-visited: #5a3d73;
   --focus: #b35c00;
   --measure: 40rem;
+  --page: 54rem;
   color-scheme: light dark;
 }
 
@@ -68,7 +69,7 @@ body {
 }
 
 .wrap {
-  max-width: var(--measure);
+  max-width: var(--page);
   margin: 0 auto;
   padding-left: 1.25rem;
   padding-right: 1.25rem;
@@ -139,6 +140,108 @@ body {
 /* Main content */
 main {
   padding: 2.5rem 0 3rem;
+}
+/* Inner pages keep a comfortable reading measure inside the wider page */
+main:not(.home) > * {
+  max-width: var(--measure);
+}
+
+/* Home page */
+.home {
+  padding-top: 3.5rem;
+}
+.intro {
+  padding-bottom: 2.75rem;
+}
+.intro h1 {
+  font-size: clamp(1.75rem, 4.2vw, 2.6rem);
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  max-width: 22ch;
+  margin-bottom: 1.5rem;
+}
+.intro p {
+  max-width: var(--measure);
+  font-size: 1.2rem;
+}
+.intro p + p {
+  color: var(--muted);
+}
+.row {
+  display: grid;
+  grid-template-columns: 11rem minmax(0, 1fr);
+  gap: 0 2.5rem;
+  border-top: 1px solid var(--rule);
+  padding: 2rem 0 0.75rem;
+}
+.row > h2 {
+  font-size: 1rem;
+  margin: 0.2rem 0 1rem;
+  color: var(--muted);
+}
+.row > :not(h2) {
+  max-width: var(--measure);
+}
+.areas {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 1.5rem 2.5rem;
+}
+.areas li + li {
+  margin-top: 0;
+}
+.row > .areas {
+  max-width: none;
+}
+.areas h3 {
+  font-size: 1.1rem;
+  margin: 0 0 0.35rem;
+}
+.areas h3 a {
+  color: var(--text);
+  text-decoration-color: var(--rule);
+  text-decoration-thickness: 2px;
+}
+.areas h3 a:hover {
+  text-decoration-color: currentColor;
+}
+.areas p {
+  margin: 0;
+  color: var(--muted);
+}
+.plain {
+  list-style: none;
+  padding: 0;
+}
+.plain li + li {
+  margin-top: 0.75em;
+}
+.dated {
+  list-style: none;
+  padding: 0;
+}
+.dated li {
+  display: grid;
+  grid-template-columns: 3.25rem minmax(0, 1fr);
+  gap: 0 0.75rem;
+}
+.dated li + li {
+  margin-top: 0.9em;
+}
+.year {
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
+@media (max-width: 44rem) {
+  .row {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .home {
+    padding-top: 2.5rem;
+  }
 }
 
 h1,
