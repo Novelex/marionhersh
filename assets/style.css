@@ -1,0 +1,390 @@
+/* marionhersh.org — minimal, accessible stylesheet.
+   The site is fully usable with this file disabled. */
+
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  src: url("fonts/atkinson-hyperlegible-latin-400-normal.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  src: url("fonts/atkinson-hyperlegible-latin-400-italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  src: url("fonts/atkinson-hyperlegible-latin-700-normal.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --bg: #faf9f6;
+  --text: #1b1b1b;
+  --muted: #555350;
+  --rule: #d9d5cc;
+  --link: #1d4f7a;
+  --link-visited: #5a3d73;
+  --focus: #b35c00;
+  --measure: 40rem;
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #171716;
+    --text: #e9e7e2;
+    --muted: #a9a59d;
+    --rule: #3a3936;
+    --link: #9cc4ea;
+    --link-visited: #c7aee0;
+    --focus: #ffb35c;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.6;
+}
+
+.wrap {
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+/* Skip link */
+.skip {
+  position: absolute;
+  left: 1rem;
+  top: -10rem;
+  background: var(--bg);
+  color: var(--text);
+  padding: 0.5rem 0.75rem;
+  border: 2px solid var(--text);
+}
+.skip:focus {
+  top: 1rem;
+}
+
+/* Header */
+.site-header {
+  padding: 2.5rem 0 1.25rem;
+  border-bottom: 1px solid var(--rule);
+}
+.site-name {
+  font-size: 1.375rem;
+  font-weight: 700;
+  color: var(--text);
+  text-decoration: none;
+  letter-spacing: 0.01em;
+}
+.site-name:hover {
+  text-decoration: underline;
+}
+.site-role {
+  margin: 0.125rem 0 1.25rem;
+  color: var(--muted);
+  font-size: 1rem;
+}
+.site-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1.5rem;
+}
+.site-nav li + li {
+  margin-top: 0;
+}
+.site-nav a {
+  color: var(--text);
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 0.25rem 0;
+  display: inline-block;
+}
+.site-nav a:hover {
+  text-decoration: underline;
+}
+.site-nav a[aria-current="page"] {
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.3em;
+}
+
+/* Main content */
+main {
+  padding: 2.5rem 0 3rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.25;
+  font-weight: 700;
+  margin: 2.25em 0 0.6em;
+}
+h1 {
+  font-size: 2rem;
+  margin-top: 0;
+}
+h2 {
+  font-size: 1.4rem;
+}
+h3 {
+  font-size: 1.15rem;
+}
+h4 {
+  font-size: 1.05rem;
+}
+h1 + p.lede,
+h1 + .meta {
+  margin-top: -0.25rem;
+}
+
+p,
+ul,
+ol,
+dl,
+table {
+  margin: 0 0 1.1em;
+}
+ul,
+ol {
+  padding-left: 1.4em;
+}
+li + li {
+  margin-top: 0.35em;
+}
+
+a {
+  color: var(--link);
+  text-underline-offset: 0.2em;
+}
+a:visited {
+  color: var(--link-visited);
+}
+a:hover {
+  text-decoration-thickness: 2px;
+}
+:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+}
+
+.lede {
+  font-size: 1.2rem;
+  color: var(--muted);
+}
+.meta,
+.note,
+small {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--rule);
+  margin: 2.5rem 0;
+}
+
+/* Long URLs and DOIs must not cause sideways scrolling */
+main a {
+  overflow-wrap: anywhere;
+}
+
+/* Section jump lists */
+.toc {
+  border-left: 3px solid var(--rule);
+  padding: 0.25rem 0 0.25rem 1rem;
+  margin: 0 0 2rem;
+}
+.toc h2 {
+  font-size: 1rem;
+  margin: 0 0 0.5rem;
+  color: var(--muted);
+}
+.toc ul,
+.toc ol {
+  margin: 0;
+  padding-left: 1.1em;
+  font-size: 1rem;
+}
+.toc li + li {
+  margin-top: 0.2em;
+}
+
+/* Bibliographic lists */
+.refs {
+  list-style: none;
+  padding-left: 0;
+}
+.refs li {
+  padding-left: 1.5em;
+  text-indent: -1.5em;
+}
+.refs li + li {
+  margin-top: 0.8em;
+}
+.paper-refs {
+  font-size: 0.95rem;
+}
+.paper-refs li + li {
+  margin-top: 0.5em;
+}
+
+/* Interview */
+.speaker {
+  font-weight: 700;
+}
+
+/* Callout for open studies and announcements */
+.callout {
+  border: 1px solid var(--rule);
+  border-left-width: 4px;
+  padding: 1rem 1.25rem;
+  margin: 0 0 1.5rem;
+}
+.callout > :last-child {
+  margin-bottom: 0;
+}
+.callout h2,
+.callout h3 {
+  margin-top: 0;
+}
+
+/* Expandable sections */
+details {
+  border: 1px solid var(--rule);
+  padding: 0.75rem 1.25rem;
+  margin: 0 0 1.5rem;
+}
+summary {
+  cursor: pointer;
+  font-weight: 700;
+}
+details[open] summary {
+  margin-bottom: 1rem;
+}
+details h3 {
+  margin-top: 0;
+}
+
+/* Tables */
+.table-scroll {
+  overflow-x: auto;
+  margin: 0 0 1.5em;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.95rem;
+}
+caption {
+  text-align: left;
+  font-weight: 700;
+  padding-bottom: 0.5rem;
+}
+th,
+td {
+  border-bottom: 1px solid var(--rule);
+  padding: 0.4rem 0.6rem 0.4rem 0;
+  text-align: left;
+  vertical-align: top;
+}
+td.num,
+th.num {
+  text-align: right;
+}
+thead th {
+  border-bottom: 2px solid var(--text);
+}
+tbody th[scope="row"] {
+  font-weight: 400;
+}
+
+/* Footer */
+.site-footer {
+  border-top: 1px solid var(--rule);
+  padding: 1.75rem 0 3rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+.site-footer h2 {
+  font-size: 1rem;
+  margin: 0 0 0.5rem;
+  color: var(--text);
+}
+.site-footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1.25rem;
+}
+.site-footer li + li {
+  margin-top: 0;
+}
+.site-footer a {
+  color: var(--muted);
+}
+
+@media (max-width: 30rem) {
+  body {
+    font-size: 1.0625rem;
+  }
+  h1 {
+    font-size: 1.7rem;
+  }
+  .site-header {
+    padding-top: 1.75rem;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@media print {
+  .site-nav,
+  .skip,
+  .toc {
+    display: none;
+  }
+  body {
+    background: #fff;
+    color: #000;
+  }
+  a {
+    color: #000;
+  }
+}
