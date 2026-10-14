@@ -66,6 +66,13 @@ html {
   text-size-adjust: 100%;
 }
 
+img,
+svg,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
 body {
   margin: 0;
   background: var(--paper);
@@ -427,7 +434,7 @@ tbody th[scope="row"] {
 }
 .hero-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1.4fr) minmax(0, 0.75fr);
+  grid-template-columns: minmax(0, 1fr) minmax(0, 22rem);
   gap: 3rem 5rem;
   align-items: center;
 }
@@ -443,7 +450,7 @@ tbody th[scope="row"] {
   max-width: 34rem;
 }
 .hero-art {
-  max-width: 30rem;
+  max-width: 22rem;
   width: 100%;
   justify-self: end;
 }
@@ -659,13 +666,15 @@ tbody th[scope="row"] {
 
 /* ---------- Responsive ---------- */
 @media (max-width: 60rem) {
-  .hero-grid,
-  .feature-grid {
-    grid-template-columns: minmax(0, 1fr);
+  .hero-grid {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 15rem);
+    gap: 2.5rem;
   }
   .hero-art {
-    justify-self: start;
-    max-width: 30rem;
+    max-width: 15rem;
+  }
+  .feature-grid {
+    grid-template-columns: minmax(0, 1fr);
   }
   .studies {
     grid-template-columns: minmax(0, 1fr);
@@ -680,6 +689,19 @@ tbody th[scope="row"] {
 @media (max-width: 40rem) {
   body {
     font-size: 1.0625rem;
+  }
+  .hero-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 2rem;
+  }
+  .hero-art {
+    max-width: none;
+    justify-self: stretch;
+  }
+  .hero-art img {
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    object-position: center 60%;
   }
   .wrap {
     padding-left: 1rem;
@@ -843,6 +865,10 @@ tbody th[scope="row"] {
 .prose {
   max-width: 44rem;
   min-width: 0;
+  overflow-wrap: break-word;
+}
+.paper-refs li {
+  overflow-wrap: anywhere;
 }
 .prose.wide {
   max-width: 52rem;

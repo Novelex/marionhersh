@@ -32,7 +32,14 @@ my @pages = (
 # Old addresses that now live elsewhere
 my %redirects = ('podcast/' => 'publications/', 'archive/' => 'recent-posts/');
 
+# Assemble the stylesheet and version it, so browsers never use a stale copy
+use Digest::MD5 qw(md5_hex);
+my $css = join '', map { slurp("$B/$_") } qw(css-base.css css-home.css css-inner.css);
+spit("$O/assets/style.css", $css);
+my $cssver = substr(md5_hex($css), 0, 8);
+
 my $layout = slurp("$B/layout.html");
+$layout =~ s/\{\{CSSVER\}\}/$cssver/g;
 for my $p (@pages) {
   my ($dir,$file,$title,$desc,$cur,$mc)=@$p;
   my $root = $dir eq '' ? './' : '../' x (() = $dir =~ m{/}g);

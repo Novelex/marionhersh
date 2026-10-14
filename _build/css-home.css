@@ -28,7 +28,7 @@
 }
 .hero-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1.4fr) minmax(0, 0.75fr);
+  grid-template-columns: minmax(0, 1fr) minmax(0, 22rem);
   gap: 3rem 5rem;
   align-items: center;
 }
@@ -44,7 +44,7 @@
   max-width: 34rem;
 }
 .hero-art {
-  max-width: 30rem;
+  max-width: 22rem;
   width: 100%;
   justify-self: end;
 }
@@ -260,13 +260,15 @@
 
 /* ---------- Responsive ---------- */
 @media (max-width: 60rem) {
-  .hero-grid,
-  .feature-grid {
-    grid-template-columns: minmax(0, 1fr);
+  .hero-grid {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 15rem);
+    gap: 2.5rem;
   }
   .hero-art {
-    justify-self: start;
-    max-width: 30rem;
+    max-width: 15rem;
+  }
+  .feature-grid {
+    grid-template-columns: minmax(0, 1fr);
   }
   .studies {
     grid-template-columns: minmax(0, 1fr);
@@ -281,6 +283,19 @@
 @media (max-width: 40rem) {
   body {
     font-size: 1.0625rem;
+  }
+  .hero-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 2rem;
+  }
+  .hero-art {
+    max-width: none;
+    justify-self: stretch;
+  }
+  .hero-art img {
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    object-position: center 60%;
   }
   .wrap {
     padding-left: 1rem;

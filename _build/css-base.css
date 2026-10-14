@@ -66,6 +66,13 @@ html {
   text-size-adjust: 100%;
 }
 
+img,
+svg,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
 body {
   margin: 0;
   background: var(--paper);
