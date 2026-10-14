@@ -38,15 +38,15 @@
 }
 
 :root {
-  --paper: #f7f4ee;
-  --paper-2: #efe9df;
-  --card: #fcfbf8;
-  --ink: #1f1c18;
-  --ink-2: #4f4a43;
-  --rule: #ddd5c8;
-  --accent: #2e5a4c;
+  --paper: #ffffff;
+  --paper-2: #f4f4f2;
+  --card: #ffffff;
+  --ink: #1a1a1a;
+  --ink-2: #555555;
+  --rule: #e0e0dc;
+  --accent: #1d4e89;
   --accent-ink: #ffffff;
-  --accent-soft: #e2ebe5;
+  --accent-soft: #eef2f7;
   --focus: #b35c00;
   --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
   --sans: "Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
@@ -215,12 +215,10 @@ a:hover {
 
 .eyebrow {
   display: block;
-  margin: 0 0 0.75rem;
+  margin: 0 0 0.6rem;
   font-family: var(--sans);
-  font-size: 0.9rem;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  color: var(--accent);
+  font-size: 0.95rem;
+  color: var(--ink-2);
 }
 .lede {
   font-size: 1.25rem;
@@ -255,8 +253,8 @@ main a {
   text-decoration: none;
 }
 .button:hover {
-  background: #23473c;
-  border-color: #23473c;
+  background: #163d6c;
+  border-color: #163d6c;
 }
 .button.secondary {
   background: transparent;
@@ -274,9 +272,6 @@ main a {
 .more {
   font-weight: 700;
   text-decoration: none;
-}
-.more::after {
-  content: " →";
 }
 .more:hover {
   text-decoration: underline;
@@ -300,7 +295,6 @@ main.wrap > * {
 .toc h2 {
   font-family: var(--sans);
   font-size: 0.9rem;
-  letter-spacing: 0.04em;
   margin: 0 0 0.5rem;
   color: var(--ink-2);
 }

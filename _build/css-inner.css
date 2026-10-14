@@ -3,7 +3,6 @@
 .page-hero {
   padding: 3.5rem 0 3rem;
   border-bottom: 1px solid var(--rule);
-  background: radial-gradient(56rem 30rem at 92% 0%, rgba(46, 90, 76, 0.09), transparent 70%);
 }
 .page-hero h1 {
   font-size: clamp(2.2rem, 4.6vw, 3.4rem);
@@ -73,8 +72,8 @@
 }
 .toc.side {
   position: sticky;
-  top: 7.5rem;
-  max-height: calc(100vh - 9rem);
+  top: 2rem;
+  max-height: calc(100vh - 4rem);
   overflow-y: auto;
   margin: 0;
   padding: 1.25rem 1.25rem 1.25rem 1.4rem;
@@ -117,12 +116,12 @@
 }
 .prose h2 {
   font-size: clamp(1.5rem, 2.6vw, 1.9rem);
-  scroll-margin-top: 7rem;
+  scroll-margin-top: 1.5rem;
 }
 .prose h3,
 .prose h4,
 .prose [id] {
-  scroll-margin-top: 7rem;
+  scroll-margin-top: 1.5rem;
 }
 .prose .lede {
   font-size: 1.15rem;
@@ -140,17 +139,13 @@
   grid-template-columns: 4.25rem minmax(0, 1fr);
   gap: 0 1rem;
   margin: 0;
-  padding: 1.15rem 0.75rem;
+  padding: 1.15rem 0;
   border-bottom: 1px solid var(--rule);
-  transition: background-color 0.15s ease;
-}
-.pubs li:hover {
-  background: var(--card);
 }
 .pubs .year {
   font-family: var(--serif);
   font-weight: 600;
-  color: var(--accent);
+  color: var(--ink-2);
   font-variant-numeric: tabular-nums;
 }
 .pubs .title {
@@ -185,22 +180,16 @@
   list-style: none;
   padding: 0;
   margin: 0 0 3rem;
-  display: grid;
-  gap: 1.25rem;
 }
 .entry-cards li + li {
   margin-top: 0;
 }
 .entry-card {
-  background: var(--card);
-  border: 1px solid var(--rule);
-  border-radius: 12px;
-  padding: 1.75rem 2rem;
-  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  padding: 1.75rem 0;
+  border-bottom: 1px solid var(--rule);
 }
-.entry-card:hover {
-  border-color: var(--accent);
-  box-shadow: 0 20px 40px -30px rgba(31, 28, 24, 0.45);
+.entry-card:first-child {
+  border-top: 1px solid var(--rule);
 }
 .entry-card h2,
 .entry-card h3 {
@@ -224,15 +213,9 @@
   font-size: 0.98rem;
 }
 .tag {
-  display: inline-block;
-  margin: 0 0 0.9rem;
-  padding: 0.2rem 0.65rem;
-  border-radius: 999px;
-  background: var(--accent-soft);
-  font-size: 0.82rem;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  color: var(--accent);
+  margin: 0 0 0.4rem;
+  font-size: 0.95rem;
+  color: var(--ink-2);
 }
 .pull {
   margin: 1.25rem 0;
@@ -291,43 +274,19 @@
 
 /* Projects */
 .steps {
-  list-style: none;
-  counter-reset: step;
-  padding: 0;
+  padding-left: 1.4em;
   margin: 0 0 3rem;
 }
-.steps li {
-  counter-increment: step;
-  position: relative;
-  margin: 0;
-  padding: 0 0 1.75rem 3.5rem;
-  border-left: 2px solid var(--rule);
-  margin-left: 1.1rem;
-}
-.steps li:last-child {
-  border-left-color: transparent;
-  padding-bottom: 0;
-}
-.steps li::before {
-  content: counter(step);
-  position: absolute;
-  left: -1.15rem;
-  top: -0.2rem;
-  width: 2.2rem;
-  height: 2.2rem;
-  display: grid;
-  place-items: center;
-  border-radius: 50%;
-  background: var(--accent);
-  color: #fff;
-  font-family: var(--serif);
-  font-weight: 600;
+.steps li + li {
+  margin-top: 1.25rem;
 }
 .steps h3 {
-  margin: 0 0 0.4rem;
+  margin: 0 0 0.35rem;
+  font-size: 1.15rem;
 }
 .steps p {
   color: var(--ink-2);
+  margin: 0;
 }
 .rec-grid {
   display: grid;
@@ -338,13 +297,8 @@
 .rec {
   background: var(--card);
   border: 1px solid var(--rule);
-  border-radius: 12px;
+  border-radius: 4px;
   padding: 1.5rem 1.6rem 0.5rem;
-}
-.rec:first-child {
-  grid-column: 1 / -1;
-  background: var(--accent-soft);
-  border-color: transparent;
 }
 .rec h3 {
   margin: 0 0 0.75rem;
