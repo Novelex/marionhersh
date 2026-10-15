@@ -30,7 +30,7 @@ sub main_of {
   return $h;
 }
 my @pairs = (
-  ['home.clean.html',     'index.html', sub { my $h = shift; $h =~ s{<section class="home-section".*}{}s; $h =~ s{<p class="role">}{<p>}; $h }],
+  ['home.clean.html',     'index.html', sub { my $h = shift; $h =~ s{<section class="home-section[^"]*".*}{}s; $h =~ s{<p class="role">}{<p>}; $h }],
   ['projects.clean.html', 'projects/index.html'],
   ['research.clean.html', 'research-participation/index.html'],
   ['union.clean.html',    'trade-union/index.html'],

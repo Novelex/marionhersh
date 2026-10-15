@@ -46,7 +46,10 @@
   --rule: #d4d4cf;
   --accent: #1d4e89;
   --accent-ink: #ffffff;
-  --accent-soft: #eef2f7;
+  --accent-soft: #eef3f9;
+  --band: #163a63;
+  --band-ink: #ffffff;
+  --band-ink-2: #d6e2f0;
   --focus: #b35c00;
   --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
   --sans: "Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;

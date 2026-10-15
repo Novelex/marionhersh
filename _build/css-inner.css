@@ -1,45 +1,52 @@
 
 /* ---------- Inner pages ---------- */
 .page-head {
-  padding: 2.5rem 0 2rem;
-  border-bottom: 1px solid var(--rule);
+  padding: 2.75rem 0 2.5rem;
+  background: var(--band);
+  color: var(--band-ink);
 }
 .page-head h1 {
-  font-size: clamp(2rem, 4.2vw, 2.8rem);
+  color: var(--band-ink);
+  font-size: clamp(2rem, 4.2vw, 2.9rem);
   line-height: 1.12;
+  max-width: 30ch;
   margin: 0;
 }
 .page-head .byline {
   margin: 0.9rem 0 0;
-  color: var(--ink-2);
+  color: var(--band-ink-2);
 }
 .crumbs {
   margin: 0 0 0.9rem;
   font-size: 0.95rem;
-  color: var(--ink-2);
+  color: var(--band-ink-2);
 }
-.crumbs a {
-  color: var(--ink-2);
+.page-head .crumbs a {
+  color: var(--band-ink-2);
 }
 .crumbs span {
   margin: 0 0.35rem;
 }
 
+/* One reading column, aligned with the site name in the header */
 .page-body {
-  padding-top: 2rem;
-  padding-bottom: 4rem;
+  padding-top: 2.5rem;
+  padding-bottom: 4.5rem;
+}
+.page-body > * {
+  max-width: 48rem;
 }
 
-/* "On this page" list at the top of the page */
+/* "On this page" panel */
 .toc {
-  margin: 0 0 2.5rem;
-  padding: 0 0 0 1.25rem;
-  border-left: 3px solid var(--rule);
-  background: none;
-  border-radius: 0;
+  margin: 0 0 3rem;
+  padding: 1.4rem 1.6rem;
+  background: var(--accent-soft);
+  border-left: 4px solid var(--accent);
+  border-radius: 0 4px 4px 0;
 }
 .toc-label {
-  margin: 0 0 0.5rem;
+  margin: 0 0 0.6rem;
   font-weight: 700;
   color: var(--ink);
 }
@@ -50,16 +57,20 @@
   font-size: 1rem;
 }
 .toc ul ul {
-  margin: 0.35rem 0 0.2rem 1.1rem;
+  margin: 0.4rem 0 0.2rem 1.1rem;
   font-size: 0.95rem;
 }
 .toc li + li {
-  margin-top: 0.4rem;
+  margin-top: 0.45rem;
 }
 
 .prose {
   min-width: 0;
   overflow-wrap: break-word;
+}
+.prose h2 {
+  font-size: clamp(1.5rem, 2.8vw, 1.85rem);
+  color: var(--band);
 }
 .prose h2,
 .prose h3,
@@ -74,12 +85,12 @@
   margin-top: 1.5em;
 }
 
-/* Sections: separated by a line, no boxes */
+/* Sections: separated by a line */
 .box {
-  margin: 0 0 2.5rem;
+  margin: 0 0 2.75rem;
 }
 .box + .box {
-  padding-top: 2rem;
+  padding-top: 2.25rem;
   border-top: 1px solid var(--rule);
 }
 .box > :last-child {
@@ -89,21 +100,21 @@
 .box > h3:first-child {
   margin-top: 0;
 }
-.prose h2 {
-  font-size: clamp(1.45rem, 2.6vw, 1.75rem);
-}
 
 /* Reference lists */
 .refs {
   list-style: none;
   padding-left: 0;
+  border-top: 1px solid var(--rule);
 }
 .refs li {
-  padding-left: 1.5em;
+  margin: 0;
+  padding: 0.85rem 0 0.85rem 1.5em;
   text-indent: -1.5em;
+  border-bottom: 1px solid var(--rule);
 }
 .refs li + li {
-  margin-top: 0.85em;
+  margin-top: 0;
 }
 .paper-refs {
   font-size: 0.95rem;
@@ -117,29 +128,31 @@
 
 /* Interview */
 .interview h3 {
-  margin-top: 2rem;
+  margin-top: 2.25rem;
+  padding-left: 0.9rem;
+  border-left: 4px solid var(--accent);
   font-size: 1.25rem;
 }
 .speaker {
   font-weight: 700;
+  color: var(--band);
 }
 
 /* Election flyer and its text version */
 .flyer {
+  display: grid;
+  grid-template-columns: minmax(0, 15rem) minmax(0, 1fr);
+  gap: 1.5rem 2rem;
+  align-items: start;
   margin-top: 1.75rem;
 }
 .flyer-image {
-  margin: 0 0 1.75rem;
-  max-width: 22rem;
+  margin: 0;
 }
 .flyer-image img {
   display: block;
   width: 100%;
   border: 1px solid var(--rule);
-}
-.flyer-text {
-  padding-left: 1.25rem;
-  border-left: 3px solid var(--rule);
 }
 .flyer-text h3 {
   margin-top: 0.5rem;
@@ -173,14 +186,22 @@
   font-size: 1.08rem;
 }
 
+@media (max-width: 48rem) {
+  .flyer {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .flyer-image {
+    max-width: 20rem;
+  }
+}
 @media (max-width: 40rem) {
   .page-head {
-    padding: 1.75rem 0 1.5rem;
+    padding: 1.9rem 0 1.75rem;
   }
   .page-body {
-    padding-top: 1.5rem;
+    padding-top: 1.75rem;
   }
-  .flyer-text {
-    padding-left: 0.9rem;
+  .toc {
+    padding: 1.1rem 1.1rem;
   }
 }

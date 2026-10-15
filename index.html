@@ -14,7 +14,7 @@
 <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
 <link rel="preload" href="./assets/fonts/source-serif-4-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="./assets/fonts/atkinson-hyperlegible-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="./assets/style.css?v=fdcf8aea">
+<link rel="stylesheet" href="./assets/style.css?v=f37bd150">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -37,46 +37,90 @@
   </div>
 </header>
 <main id="main" class="home">
-<div class="wrap home-body">
-  <div class="profile">
-    <img class="profile-photo" src="./assets/images/cats-800.jpg" srcset="./assets/images/cats-800.jpg 800w, ./assets/images/cats-1200.jpg 1200w" sizes="14rem" width="800" height="600" alt="Two black cats on a paved path outside a door with a cat flap.">
-    <div>
-      <h1>Marion Hersh</h1>
+<section class="hero-band" aria-labelledby="name">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <h1 id="name">Marion Hersh</h1>
       <p class="role">Senior Lecturer in Biomedical Engineering</p>
+      <p class="hero-text">I believe in working to make the world a better place for people, animals and the planet itself. I consider that research can be used to make positive change as well as contribute to knowledge and that both are important. I am also increasingly trying to use co-production approaches to research to empower the groups being researched.</p>
+    </div>
+    <div class="hero-photo">
+      <img src="./assets/images/cats-800.jpg" srcset="./assets/images/cats-800.jpg 800w, ./assets/images/cats-1200.jpg 1200w" sizes="(max-width: 48rem) 100vw, 26rem" width="800" height="600" alt="Two black cats on a paved path outside a door with a cat flap.">
     </div>
   </div>
+</section>
 
-  <div class="about">
-    <p>I believe in working to make the world a better place for people, animals and the planet itself. I consider that research can be used to make positive change as well as contribute to knowledge and that both are important. I am also increasingly trying to use co-production approaches to research to empower the groups being researched.</p>
-    <p>My work focuses on the use of technology to overcome the disadvantages experienced by disabled and older people in particular.</p>
-    <p>Specific projects cover:</p>
-    <ul>
-      <li>Older autistic people’s experiences – living situations, employment and technology use – and technology development to support increased autonomy and improved quality of life.</li>
-      <li>Mobility for blind people including route learning, spatial understanding and representations and new travel technologies.</li>
-      <li>Designing accessible learning technologies.</li>
+<div class="work">
+  <div class="wrap">
+    <p class="statement">My work focuses on the use of technology to overcome the disadvantages experienced by disabled and older people in particular.</p>
+    <p class="tiles-intro">Specific projects cover:</p>
+    <ul class="tiles">
+      <li><a href="./projects/">Older autistic people’s experiences – living situations, employment and technology use – and technology development to support increased autonomy and improved quality of life.</a></li>
+      <li><a href="./publications/#mobility-technologies-for-blind-people">Mobility for blind people including route learning, spatial understanding and representations and new travel technologies.</a></li>
+      <li><a href="./publications/#learning-technologies-and-disability">Designing accessible learning technologies.</a></li>
     </ul>
+  </div>
+</div>
+
+<div class="ethics-band">
+  <div class="wrap">
     <p>I also work in the area of engineering ethics and am convenor of the International Federation of Automatic Control Working Group on Ethics. This includes work on opening up engineering to minority groups and the experiences of disabled and LGBTQ+ engineers. Information about some of my research projects can be found at <a href="http://web.eng.gla.ac.uk/assistive/">http://web.eng.gla.ac.uk/assistive/</a></p>
   </div>
+</div>
 
-  <section class="home-section" aria-labelledby="recent-heading">
+<section class="home-section recent" aria-labelledby="recent-heading">
+  <div class="wrap recent-grid">
     <h2 id="recent-heading"><a href="./recent-posts/">Recent Posts</a></h2>
+    <div class="recent-items">
 <p>Link to new article: <a href="./older-autistic-adults-experiences-attitudes-and-support-needs/">Older Autistic Adults’ Experiences, Attitudes and Support Needs</a></p>
 
-    <ul class="plain-links">
-      <li><a href="./trade-union/#interview">Interview with Marion Hersh and Christina Paine on being a disabled UCU activist</a></li>
-      <li><a href="./archive/">Archive</a></li>
-    </ul>
-  </section>
+      <ul class="plain-links">
+        <li><a href="./trade-union/#interview">Interview with Marion Hersh and Christina Paine on being a disabled UCU activist</a></li>
+        <li><a href="./archive/">Archive</a></li>
+      </ul>
+    </div>
+  </div>
+</section>
 
-  <nav class="section-links" aria-label="Sections of this website">
-    <ul>
-      <li><a href="./publications/">Publications</a></li>
-      <li><a href="./projects/">Projects</a></li>
-      <li><a href="./research-participation/">Research Participation</a></li>
-      <li><a href="./trade-union/">Trade Union</a></li>
-      <li><a href="./special-issues-and-sessions/">Special Issues and Sessions</a></li>
-    </ul>
-  </nav>
+<div class="sections">
+  <div class="wrap card-grid">
+    <section class="card" aria-labelledby="card-publications">
+      <h2 id="card-publications"><a href="./publications/">Publications</a></h2>
+      <ul>
+        <li><a href="./publications/#books">Books</a></li>
+        <li><a href="./publications/#journal-papers">Journal Papers</a></li>
+        <li><a href="./publications/#book-chapters">Book Chapters</a></li>
+        <li><a href="./publications/#on-line-encyclopedia-chapters">On-line Encyclopedia Chapters</a></li>
+        <li><a href="./special-issues-and-sessions/">Special Issues and Sessions</a></li>
+      </ul>
+    </section>
+    <section class="card" aria-labelledby="card-projects">
+      <h2 id="card-projects"><a href="./projects/">Projects</a></h2>
+      <ul>
+        <li><a href="./projects/#older-autistic-kit-oak-older-autistic-people-ict-and-services">Older Autistic Kit (OAK) – Older Autistic People, ICT and Services</a></li>
+        <li><a href="./projects/#overview">Overview</a></li>
+        <li><a href="./projects/#outcomes">Outcomes</a></li>
+        <li><a href="./projects/#recommendations">Recommendations</a></li>
+      </ul>
+    </section>
+    <section class="card" aria-labelledby="card-participation">
+      <h2 id="card-participation"><a href="./research-participation/">Research Participation</a></h2>
+      <ul>
+        <li><a href="./research-participation/#calm-spaces-website-and-forum-for-older-autistic-people">Calm Spaces Website and Forum for Older autistic people</a></li>
+        <li><a href="./research-participation/#designing-recommender-systems-for-blind-partially-sighted-and-autistic-people">Designing Recommender Systems for Blind, Partially Sighted and Autistic People</a></li>
+        <li><a href="./research-participation/#ai-research-and-disabled-neurodivergent-and-deaf-researchers-and-other-professionals-experiences-and-attitudes">AI Research and Disabled, Neurodivergent and Deaf Researchers and Other Professionals: Experiences and Attitudes</a></li>
+      </ul>
+    </section>
+    <section class="card" aria-labelledby="card-union">
+      <h2 id="card-union"><a href="./trade-union/">Trade Union</a></h2>
+      <ul>
+        <li><a href="./trade-union/#ucu-scotland-green-network">UCU Scotland Green Network</a></li>
+        <li><a href="./trade-union/#solidarity-to-branches-taking-action-or-balloting">Solidarity to branches taking action or balloting</a></li>
+        <li><a href="./trade-union/#ucu-nec-elections">UCU NEC Elections</a></li>
+        <li><a href="./trade-union/#interview">Interview with Marion Hersh and Christina Paine on being a disabled UCU activist</a></li>
+      </ul>
+    </section>
+  </div>
 </div>
 
 </main>
