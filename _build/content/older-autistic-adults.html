@@ -1,25 +1,23 @@
-<section class="page-hero">
+<div class="page-head">
   <div class="wrap">
-    <p class="crumbs"><a href="{{ROOT}}">Home</a> <span aria-hidden="true">/</span> <a href="{{ROOT}}publications/">Publications</a> <span aria-hidden="true">/</span> Article</p>
-    <p class="eyebrow">Research article, 2026</p>
-    <h1>Older Autistic Adults’ Experiences, Attitudes and Support Needs</h1>
-    <p class="lede">M. A. Hersh, P. Mery and M. Dawson</p>
-    <p class="note">Preprint: <a href="https://doi.org/10.31234/osf.io/ef6bu_v1">doi:10.31234/osf.io/ef6bu_v1</a>. Data: <a href="https://doi.org/10.5525/gla.researchdata.1386">University of Glasgow repository</a></p>
+    <p class="crumbs"><a href="{{ROOT}}">Home</a> <span aria-hidden="true">/</span> <a href="{{ROOT}}publications/">Publications</a></p>
+    <h1 id="page-title">Older Autistic Adults’ Experiences, Attitudes and Support Needs</h1>
+    <p class="byline">Hersh, M.A., Mery, P, and Dawson, M. (2026).</p>
   </div>
-</section>
-
+</div>
 <div class="wrap page-body">
-  <nav class="toc side" aria-labelledby="paper-contents">
-    <h2 id="paper-contents">Contents</h2>
+  <nav class="toc side" aria-label="Article sections">
     <ul>
       <li><a href="#abstract">Abstract</a></li>
-{{INCLUDE paper.toc.html}}
+{{INCLUDE src/paper.toc.html}}
       <li><a href="#acknowledgements">Acknowledgements</a></li>
+      <li><a href="#funding">Funding</a></li>
+      <li><a href="#data">Data</a></li>
+      <li><a href="#conflicts-of-interest">Conflicts of Interest</a></li>
       <li><a href="#references">References</a></li>
     </ul>
   </nav>
-
-  <article class="prose paper">
-{{INCLUDE paper.frag.html}}
+  <article class="prose box paper" aria-labelledby="page-title">
+{{INCLUDE src/paper.frag.html}}
   </article>
 </div>

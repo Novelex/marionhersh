@@ -7,26 +7,27 @@ sub slurp { local $/; open my $f,'<',$_[0] or die "$_[0]: $!"; my $s=<$f>; $s }
 sub spit  { my ($p,$s)=@_; (my $d=$p) =~ s{/[^/]+$}{}; make_path($d); open my $o,'>',$p or die "$p: $!"; print $o $s; close $o; print "wrote $p\n"; }
 
 my @nav = (
-  ['',                             'Home'],
-  ['publications/',                'Publications'],
-  ['special-issues-and-sessions/', 'Special issues & sessions'],
-  ['research-participation/',      'Research participation'],
-  ['projects/',                    'Projects'],
-  ['trade-union/',                 'Trade union'],
+  [q(),                             q(Home)],
+  [q(publications/),                q(Publications)],
+  [q(special-issues-and-sessions/), q(Special Issues and Sessions)],
+  [q(research-participation/),      q(Research Participation)],
+  [q(projects/),                    q(Projects)],
+  [q(trade-union/),                 q(Trade Union)],
 );
 
 # [output dir ('' = root), content file, title, description, current nav, main class]
 my $paper = 'older-autistic-adults-experiences-attitudes-and-support-needs/';
 my @pages = (
- ['',                             'index.html',        'Marion Hersh', 'Marion Hersh, Senior Lecturer in Biomedical Engineering at the University of Glasgow: assistive technology, older autistic people, mobility for blind people and engineering ethics.', '', 'home'],
- ['publications/',                'publications.html', 'Publications | Marion Hersh', 'Books, journal papers and book chapters by Marion Hersh on assistive technology, accessibility, autism and engineering ethics.', 'publications/', 'page'],
- ['special-issues-and-sessions/', 'special.html',      'Special Issues and Sessions | Marion Hersh', 'Journal special issues and conference sessions edited or organised by Marion Hersh.', 'special-issues-and-sessions/', 'page'],
- ['research-participation/',      'participate.html',  'Research Participation | Marion Hersh', 'Current studies looking for participants: Calm Spaces, recommender systems, and disabled researchers in AI.', 'research-participation/', 'page'],
- ['projects/',                    'projects.html',     'Projects | Marion Hersh', 'Older Autistic Kit (OAK): a co-production project with older autistic people, including the Calm Spaces website and forum.', 'projects/', 'page'],
- ['trade-union/',                 'union.html',        'Trade Union | Marion Hersh', 'Marion Hersh’s UCU work: Scotland Green Network, NEC elections and an interview on being a disabled union activist.', 'trade-union/', 'page'],
- ['recent-posts/',                'recent.html',       'Recent Posts | Marion Hersh', 'News and recent posts from Marion Hersh.', '', 'page'],
- [$paper,                         'older-autistic-adults.html', 'Older Autistic Adults’ Experiences, Attitudes and Support Needs | Marion Hersh', 'Empirical study of the living and employment situations, aspirations and barriers of 78 autistic people aged 50–79.', 'publications/', 'page'],
- ['404/',                         'notfound.html',     'Page not found | Marion Hersh', 'Page not found.', '', 'page'],
+ # Titles follow the original site ("Page - marionhersh.org"); descriptions are sentences from each page.
+ ['',                             'index.html',        'Marion Hersh - marionhersh.org', 'Senior Lecturer in Biomedical Engineering. Marion believes in working to make the world a better place for people, animals and the planet itself.', '', 'home'],
+ ['publications/',                'publications.html', 'Publications - marionhersh.org', 'Books, Journal Papers, Book Chapters, On-line Encyclopedia Chapters.', 'publications/', 'page'],
+ ['special-issues-and-sessions/', 'special.html',      'Special Issues and Sessions - marionhersh.org', 'Special Issues and Sessions.', 'special-issues-and-sessions/', 'page'],
+ ['research-participation/',      'participate.html',  'Research Participation - marionhersh.org', 'Calm Spaces Website and Forum for Older autistic people. Designing Recommender Systems for Blind, Partially Sighted and Autistic People. AI Research and Disabled, Neurodivergent and Deaf Researchers and Other Professionals: Experiences and Attitudes.', 'research-participation/', 'page'],
+ ['projects/',                    'projects.html',     'Projects - marionhersh.org', 'This project involves a co-design/co-production approach with older autistic people at the centre of it to investigating their experiences and support needs for participation, community development, empowerment and autonomy.', 'projects/', 'page'],
+ ['trade-union/',                 'union.html',        'Trade Union - marionhersh.org', 'UCU Scotland Green Network. Solidarity to branches taking action or balloting. UCU NEC Elections. Interview with Marion Hersh and Christina Paine on being a disabled UCU activist.', 'trade-union/', 'page'],
+ ['recent-posts/',                'recent.html',       'Recent Posts - marionhersh.org', 'Link to new article: Older Autistic Adults’ Experiences, Attitudes and Support Needs.', '', 'page'],
+ [$paper,                         'older-autistic-adults.html', 'Older Autistic Adults’ Experiences, Attitudes and Support Needs - marionhersh.org', 'The paper presents new empirical data on the living and employment situations, aspirations and barriers to improving these situations of 78 autistic people aged 50-79.', 'publications/', 'page'],
+ ['404/',                         'notfound.html',     'Page not found - marionhersh.org', 'Page not found.', '', 'page'],
 );
 
 # Old addresses that now live elsewhere
@@ -44,7 +45,7 @@ for my $p (@pages) {
   my ($dir,$file,$title,$desc,$cur,$mc)=@$p;
   my $root = $dir eq '' ? './' : '../' x (() = $dir =~ m{/}g);
   my $c = slurp("$B/content/$file");
-  $c =~ s/\{\{INCLUDE ([\w.-]+)\}\}/slurp("$B\/$1")/ge;
+  1 while $c =~ s/\{\{INCLUDE ([\w.\/-]+)\}\}/slurp("$B\/$1")/ge;   # fragments may include fragments
   my $nav = join "\n", map { sprintf '        <li><a href="{{ROOT}}%s"%s>%s</a></li>', $_->[0], ($_->[0] eq $cur && $dir ne '404/' ? ' aria-current="page"' : ''), $_->[1] } @nav;
   my $h = $layout;
   $h =~ s/\{\{MAINCLASS\}\}/$mc/; $h =~ s/\{\{TITLE\}\}/$title/g; $h =~ s/\{\{DESC\}\}/$desc/g;

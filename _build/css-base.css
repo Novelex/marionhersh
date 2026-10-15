@@ -38,12 +38,12 @@
 }
 
 :root {
-  --paper: #ffffff;
-  --paper-2: #f4f4f2;
+  --paper: #f2f2ef;
+  --paper-2: #e9e9e5;
   --card: #ffffff;
   --ink: #1a1a1a;
   --ink-2: #555555;
-  --rule: #e0e0dc;
+  --rule: #d4d4cf;
   --accent: #1d4e89;
   --accent-ink: #ffffff;
   --accent-soft: #eef2f7;
