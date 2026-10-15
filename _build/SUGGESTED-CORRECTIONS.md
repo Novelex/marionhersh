@@ -1,16 +1,28 @@
 # Suggested corrections for Marion to approve
 
-The new website shows the text from marionhersh.org exactly as it was written. Nothing below has been changed on the site. Each item is a possible error in the original text, with a suggested correction, for Marion to accept or reject.
+The new website shows the text from marionhersh.org exactly as it was written, apart from the changes listed under "Changes already made". The numbered items have not been changed on the site. Each is a possible error in the original text, with a suggested correction, for Marion to accept or reject.
+
+## Changes already made (requested 15 October 2026)
+
+The home page text was changed from third person to first person:
+
+- "Marion believes in working..." is now "I believe in working..."
+- "They consider that research..." is now "I consider that research..."
+- "They are also increasingly trying..." is now "I am also increasingly trying..."
+- "Marion’s work focuses..." is now "My work focuses..."
+- "Marion also works in the area of engineering ethics and convenor of..." is now "I also work in the area of engineering ethics and am convenor of..."
+- "some of Marion’s research projects" is now "some of my research projects"
+
+These are listed in `approved-changes.txt`, which the word-by-word check uses.
 
 ## Home page
 
-1. "Marion also works in the area of engineering ethics and convenor of the International Federation..." Suggested: "...engineering ethics and is convenor of the International Federation..."
 2. The link http://web.eng.gla.ac.uk/assistive/ no longer opens. Remove it, or give a new address?
 
 ## Publications
 
 3. Hersh, M.A. (2015). Engineers and the Other: the Role of Narrative Ethics. Pages "327-245". The publisher's record gives **327-345**.
-4. Hersh, M.A. and Garcia, A. (2018). Evaluation of the Electronic Long Cane. Volume "13(12)". The publisher's record gives **37(12)**, and the co-author as **García Ramírez, A.**
+4. Hersh, M.A. and Garcia, A. (2018). Evaluation of the Electronic Long Cane. Volume "13(12)". The publisher's record gives **37(12)**, and the co-author as **GarcÃ­a RamÃ­rez, A.**
 5. Two Deaf People entries spell the co-author "Navqi, S." The publisher's records give **Naqvi, S.**
 6. Hersh, M. (2020). Mental Maps and the Use of Sensory Information... ends "Presented at Assets 2020 3 citations". Remove "3 citations"?
 7. Hersh, M. Technology for inclusion, article commissioned by UNESCO, has no year and ends with a comma. Add the year?
@@ -46,7 +58,7 @@ The new website shows the text from marionhersh.org exactly as it was written. N
 25. Section 3.3: "Section 3.2.1 presents the quantitative data. Sections 3.2.2, 3.2.3 and 3.3.4..." Suggested: "Section 3.3.1 ... Sections 3.3.2, 3.3.3 and 3.3.4".
 26. Section 4.3: the heading "Desired Occupational Situations" has no number. Suggested: "4.3.2 Desired Occupational Situations".
 27. Section 5: "The responses to these questions are presented in subsection 6.1 and 6.2." There is no section 6. Suggested: "sections 4.2 and 4.3".
-28. "c2" appears where the chi-squared symbol (χ²) was intended.
+28. "c2" appears where the chi-squared symbol (ÏÂ²) was intended.
 29. Section 4.3.2: "more 60* ones" Suggested: "more 60+ ones".
 
 ## Text on the new site that is not from the original
@@ -54,6 +66,7 @@ The new website shows the text from marionhersh.org exactly as it was written. N
 Only interface text needed to use the site and for screen readers:
 
 - "Skip to content" (a link for keyboard and screen reader users)
+- "On this page:" (above the list of sections at the top of longer pages)
 - "Home /" in the line above each page title (shows where the page sits in the site)
 - "Page not found" (shown for a mistyped address)
 - Descriptions of images for people who cannot see them:

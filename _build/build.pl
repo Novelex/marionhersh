@@ -19,7 +19,7 @@ my @nav = (
 my $paper = 'older-autistic-adults-experiences-attitudes-and-support-needs/';
 my @pages = (
  # Titles follow the original site ("Page - marionhersh.org"); descriptions are sentences from each page.
- ['',                             'index.html',        'Marion Hersh - marionhersh.org', 'Senior Lecturer in Biomedical Engineering. Marion believes in working to make the world a better place for people, animals and the planet itself.', '', 'home'],
+ ['',                             'index.html',        'Marion Hersh - marionhersh.org', 'Senior Lecturer in Biomedical Engineering. I believe in working to make the world a better place for people, animals and the planet itself.', '', 'home'],
  ['publications/',                'publications.html', 'Publications - marionhersh.org', 'Books, Journal Papers, Book Chapters, On-line Encyclopedia Chapters.', 'publications/', 'page'],
  ['special-issues-and-sessions/', 'special.html',      'Special Issues and Sessions - marionhersh.org', 'Special Issues and Sessions.', 'special-issues-and-sessions/', 'page'],
  ['research-participation/',      'participate.html',  'Research Participation - marionhersh.org', 'Calm Spaces Website and Forum for Older autistic people. Designing Recommender Systems for Blind, Partially Sighted and Autistic People. AI Research and Disabled, Neurodivergent and Deaf Researchers and Other Professionals: Experiences and Attitudes.', 'research-participation/', 'page'],

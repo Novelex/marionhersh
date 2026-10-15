@@ -1,0 +1,9 @@
+# Wording changes approved by the site owner. verify.pl applies these to the original text before comparing.
+# Format: page file<TAB>original wording<TAB>new wording
+# 2026-10-15: home page text changed from third person to first person.
+index.html	Marion believes in working	I believe in working
+index.html	They consider that research	I consider that research
+index.html	They are also increasingly trying	I am also increasingly trying
+index.html	Marion’s work focuses	My work focuses
+index.html	Marion also works in the area of engineering ethics and convenor	I also work in the area of engineering ethics and am convenor
+index.html	some of Marion’s research projects	some of my research projects

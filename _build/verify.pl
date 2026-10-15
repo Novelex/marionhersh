@@ -21,7 +21,7 @@ sub main_of {
   my $h = slurp(shift);
   ($h) = $h =~ /<main[^>]*>(.*)<\/main>/s;
   $h =~ s{<p class="crumbs">.*?</p>}{}gs;
-  $h =~ s{<nav class="toc side".*?</nav>}{}gs;
+  $h =~ s{<nav class="toc[^"]*".*?</nav>}{}gs;
   $h =~ s{<h1[^>]*>.*?</h1>}{}gs;
   $h =~ s{<p class="byline">.*?</p>}{}gs;
   $h =~ s{<div class="flyer">.*?\n</div>\n}{}gs;
@@ -30,7 +30,7 @@ sub main_of {
   return $h;
 }
 my @pairs = (
-  ['home.clean.html',     'index.html', sub { my $h = shift; $h =~ s{<div class="card-grid">.*}{}s; $h =~ s{<p class="role">}{<p>}; $h }],
+  ['home.clean.html',     'index.html', sub { my $h = shift; $h =~ s{<section class="home-section".*}{}s; $h =~ s{<p class="role">}{<p>}; $h }],
   ['projects.clean.html', 'projects/index.html'],
   ['research.clean.html', 'research-participation/index.html'],
   ['union.clean.html',    'trade-union/index.html'],
@@ -38,14 +38,20 @@ my @pairs = (
   ['podcast.clean.html',  'publications/index.html'],
   ['autistic.clean.html', 'older-autistic-adults-experiences-attitudes-and-support-needs/index.html'],
 );
+# wording changes the site owner has approved
+my %approved;
+open my $ac, "<", "_build/approved-changes.txt" or die "approved-changes.txt: $!";
+while (<$ac>) { chomp; s/\r$//; next if /^#/ || !/\t/; my ($pg, $from, $to) = split /\t/; push @{$approved{$pg}}, [$from, $to] }
+close $ac;
 my $problems = 0;
 for my $p (@pairs) {
   my ($orig, $new, $fix) = @$p;
   my $a = text(slurp("_build/original/$orig"));
   my $bh = main_of($new); $bh = $fix->($bh) if $fix;
   my $b = text($bh);
-  # The home page links "Recent Posts" and "Archive" now sit in the boxes further down the page.
+  # The home page links "Recent Posts" and "Archive" are in the Recent Posts section further down the page.
   $a =~ s/ Recent Posts Archive$// if $orig eq q(home.clean.html);
+  for my $c (@{ $approved{$new} || [] }) { my ($f, $t) = @$c; $a =~ s/\Q$f\E/$t/ or die "approved change not found in $new: $f" }
   open my $fa, '>', "$tmp/v-a.txt"; print $fa "$a\n"; close $fa;
   open my $fb, '>', "$tmp/v-b.txt"; print $fb "$b\n"; close $fb;
   my $d = `git diff --no-index --word-diff=plain --word-diff-regex="[^[:space:]]+" "$tmp/v-a.txt" "$tmp/v-b.txt"`;

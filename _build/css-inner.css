@@ -1,14 +1,12 @@
 
 /* ---------- Inner pages ---------- */
 .page-head {
-  background: var(--card);
+  padding: 2.5rem 0 2rem;
   border-bottom: 1px solid var(--rule);
-  padding: 2.5rem 0 2.25rem;
 }
 .page-head h1 {
-  font-size: clamp(2rem, 4.2vw, 3rem);
+  font-size: clamp(2rem, 4.2vw, 2.8rem);
   line-height: 1.12;
-  max-width: 28ch;
   margin: 0;
 }
 .page-head .byline {
@@ -16,7 +14,7 @@
   color: var(--ink-2);
 }
 .crumbs {
-  margin: 0 0 1rem;
+  margin: 0 0 0.9rem;
   font-size: 0.95rem;
   color: var(--ink-2);
 }
@@ -28,49 +26,38 @@
 }
 
 .page-body {
-  display: grid;
-  grid-template-columns: 16rem minmax(0, 1fr);
-  gap: 2rem 2.5rem;
-  align-items: start;
   padding-top: 2rem;
-  padding-bottom: 3.5rem;
+  padding-bottom: 4rem;
 }
-.page-body.single {
-  grid-template-columns: minmax(0, 1fr);
+
+/* "On this page" list at the top of the page */
+.toc {
+  margin: 0 0 2.5rem;
+  padding: 0 0 0 1.25rem;
+  border-left: 3px solid var(--rule);
+  background: none;
+  border-radius: 0;
 }
-.toc.side {
-  position: sticky;
-  top: 1.5rem;
-  max-height: calc(100vh - 3rem);
-  overflow-y: auto;
-  margin: 0;
-  padding: 1.25rem 1.4rem;
-  background: var(--card);
-  border: 1px solid var(--rule);
-  border-radius: 6px;
+.toc-label {
+  margin: 0 0 0.5rem;
+  font-weight: 700;
+  color: var(--ink);
 }
-.toc.side ul {
+.toc ul {
   list-style: none;
   padding: 0;
   margin: 0;
+  font-size: 1rem;
+}
+.toc ul ul {
+  margin: 0.35rem 0 0.2rem 1.1rem;
   font-size: 0.95rem;
 }
-.toc.side ul ul {
-  margin: 0.4rem 0 0.25rem 0.9rem;
-  font-size: 0.92rem;
-}
-.toc.side li + li {
-  margin-top: 0.5rem;
-}
-.toc.side a {
-  color: var(--ink);
-}
-.toc.side a:hover {
-  color: var(--accent);
+.toc li + li {
+  margin-top: 0.4rem;
 }
 
 .prose {
-  max-width: 50rem;
   min-width: 0;
   overflow-wrap: break-word;
 }
@@ -85,6 +72,25 @@
 }
 .prose h4 {
   margin-top: 1.5em;
+}
+
+/* Sections: separated by a line, no boxes */
+.box {
+  margin: 0 0 2.5rem;
+}
+.box + .box {
+  padding-top: 2rem;
+  border-top: 1px solid var(--rule);
+}
+.box > :last-child {
+  margin-bottom: 0;
+}
+.box > h2:first-child,
+.box > h3:first-child {
+  margin-top: 0;
+}
+.prose h2 {
+  font-size: clamp(1.45rem, 2.6vw, 1.75rem);
 }
 
 /* Reference lists */
@@ -112,8 +118,6 @@
 /* Interview */
 .interview h3 {
   margin-top: 2rem;
-  padding-top: 1.5rem;
-  border-top: 1px solid var(--rule);
   font-size: 1.25rem;
 }
 .speaker {
@@ -122,24 +126,23 @@
 
 /* Election flyer and its text version */
 .flyer {
-  display: grid;
-  grid-template-columns: minmax(0, 17rem) minmax(0, 1fr);
-  gap: 1.5rem 2rem;
-  align-items: start;
-  margin-top: 1.5rem;
-  padding-top: 1.5rem;
-  border-top: 1px solid var(--rule);
+  margin-top: 1.75rem;
 }
 .flyer-image {
-  margin: 0;
+  margin: 0 0 1.75rem;
+  max-width: 22rem;
 }
 .flyer-image img {
   display: block;
   width: 100%;
   border: 1px solid var(--rule);
 }
+.flyer-text {
+  padding-left: 1.25rem;
+  border-left: 3px solid var(--rule);
+}
 .flyer-text h3 {
-  margin-top: 0;
+  margin-top: 0.5rem;
 }
 .flyer-banner {
   font-weight: 700;
@@ -170,32 +173,14 @@
   font-size: 1.08rem;
 }
 
-@media (max-width: 60rem) {
-  .page-body {
-    grid-template-columns: minmax(0, 1fr);
-    gap: 1.5rem;
-    padding-top: 1.5rem;
-  }
-  .toc.side {
-    position: static;
-    max-height: none;
-  }
-}
-@media (max-width: 48rem) {
-  .flyer {
-    grid-template-columns: minmax(0, 1fr);
-  }
-  .flyer-image {
-    max-width: 20rem;
-  }
-}
 @media (max-width: 40rem) {
   .page-head {
-    padding: 1.75rem 0 1.75rem;
+    padding: 1.75rem 0 1.5rem;
   }
-}
-@media print {
   .page-body {
-    display: block;
+    padding-top: 1.5rem;
+  }
+  .flyer-text {
+    padding-left: 0.9rem;
   }
 }
