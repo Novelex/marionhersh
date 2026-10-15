@@ -15,9 +15,24 @@
 <link rel="preload" href="{{ROOT}}assets/fonts/source-serif-4-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="{{ROOT}}assets/fonts/atkinson-hyperlegible-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="{{ROOT}}assets/style.css?v={{CSSVER}}">
+<script>
+/* Apply saved display options before the page is drawn */
+try { var m = JSON.parse(localStorage.getItem("display-options") || "[]"); for (var i = 0; i < m.length; i++) document.documentElement.classList.add(m[i]); } catch (e) {}
+</script>
+<script src="{{ROOT}}assets/display-options.js?v={{CSSVER}}" defer></script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
+<div class="display-bar" id="display-bar" role="region" aria-labelledby="display-label" hidden>
+  <div class="wrap">
+    <span id="display-label">Display options</span>
+    <div class="display-buttons" role="group" aria-labelledby="display-label">
+      <button type="button" data-option="colours-off" aria-pressed="false">Colours off</button>
+      <button type="button" data-option="text-large" aria-pressed="false">Larger text</button>
+      <button type="button" data-option="images-off" aria-pressed="false">Images off</button>
+    </div>
+  </div>
+</div>
 <header class="site-header">
   <div class="wrap">
     <div class="brand">

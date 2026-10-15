@@ -1,0 +1,2628 @@
+[
+   {
+      "authors" : [
+         "Hersh, Marion",
+         "Mery, Panda",
+         "Dawson, Michael"
+      ],
+      "doi" : "10.1080/0144929X.2025.2585336",
+      "eid" : "370620",
+      "rest" : "Behaviour and Information Technology, (Early Online Publication)",
+      "title" : "Older autistic people and ICT: experiences, attitudes and support needs.",
+      "type" : "article",
+      "year" : "2025"
+   },
+   {
+      "authors" : [
+         "Hersh, Marion",
+         "Mery, Panda",
+         "Dawson, Michael"
+      ],
+      "doi" : "10.3390/ijerph21111535",
+      "eid" : "341547",
+      "rest" : "International Journal of Environmental Research and Public Health, 21(11), 1535.",
+      "title" : "Older autistic people, access and experiences of services and the factors that affect this.",
+      "type" : "article",
+      "year" : "2024"
+   },
+   {
+      "authors" : [
+         "Hersh, Marion",
+         "Leporini, Barbara",
+         "Buzzi, Marina"
+      ],
+      "doi" : "10.1080/0144929X.2023.2286533",
+      "eid" : "310166",
+      "rest" : "Behaviour and Information Technology, 43(15), pp. 3777-3796.",
+      "title" : "A comparative study of disabled people's experiences with the video conferencing tools Zoom, MS Teams, Google Meet and Skype.",
+      "type" : "article",
+      "year" : "2024"
+   },
+   {
+      "authors" : [
+         "Leporini, Barbara",
+         "Buzzi, Marina",
+         "Hersh, Marion"
+      ],
+      "doi" : "10.1145/3573012",
+      "eid" : "287267",
+      "rest" : "ACM Transactions on Accessible Computing, 16(1), 7.",
+      "title" : "Video conferencing tools: comparative study of the experiences of screen reader users and the development of more inclusive design guidelines.",
+      "type" : "article",
+      "year" : "2023"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : "10.1007/s00146-021-01238-5",
+      "eid" : "244590",
+      "rest" : "AI and Society, 37(4), pp. 1545-1561.",
+      "title" : "Professional ethics and social responsibility: military work and peacebuilding.",
+      "type" : "article",
+      "year" : "2022"
+   },
+   {
+      "authors" : [
+         "Hersh, Marion",
+         "Garcia Ramirez, Alejandro Rafael"
+      ],
+      "doi" : "10.1145/3549077",
+      "eid" : "271317",
+      "rest" : "ACM Transactions on Accessible Computing, 15(4), 32.",
+      "title" : "Route descriptions, spatial knowledge and spatial representations of blind and partially sighted people: improved design of electronic travel aids.",
+      "type" : "article",
+      "year" : "2022"
+   },
+   {
+      "authors" : [
+         "Hersh, Marion"
+      ],
+      "doi" : "10.3390/s22145454",
+      "eid" : "271318",
+      "rest" : "Sensors, 22(14), 5454.",
+      "title" : "Wearable travel aids for blind and partially sighted people: a review with a focus on design issues.",
+      "type" : "article",
+      "year" : "2022"
+   },
+   {
+      "authors" : [
+         "Zeinullin, Maralbek",
+         "Hersh, Marion"
+      ],
+      "doi" : "10.1109/ACCESS.2022.3223099",
+      "eid" : "285139",
+      "rest" : "IEEE Access, 10, pp. 122074-122091.",
+      "title" : "Tactile audio responsive intelligent system.",
+      "type" : "article",
+      "year" : "2022"
+   },
+   {
+      "authors" : [
+         "Hersh, Marion",
+         "Elley, Sharon",
+         "Banks, Zyggy",
+         "Mery, Panda",
+         "Dawson, Michael",
+         "Cowan, David",
+         "Watson, Cal",
+         "Milton, Damian",
+         "Murray, Dinah",
+         "Ridout, Susy",
+         "Martin, Nicola",
+         "Mills, Richard"
+      ],
+      "doi" : null,
+      "eid" : "201562",
+      "rest" : "In: Milton, Damian, Murray, Dinah, Ridout, Susy, Martin, Nicola and Mills, Richard (eds.) The Neurodiversity Reader. Pavilion Publishing and Media: Shoreham by Sea. ISBN 9781912755394",
+      "title" : "Accessing services and social interaction: strategies used by autistic people.",
+      "type" : "in",
+      "year" : "2020"
+   },
+   {
+      "authors" : [
+         "Ozioko, Oliver",
+         "Navaraj, William",
+         "Hersh, Marion",
+         "Dahiya, Ravinder"
+      ],
+      "doi" : "10.3390/s20174780",
+      "eid" : "219554",
+      "rest" : "Sensors, 20(17), 4780.",
+      "title" : "Tacsac: wearable haptic device with capacitive touch-sensing capability for tactile display.",
+      "type" : "article",
+      "year" : "2020"
+   },
+   {
+      "authors" : [
+         "Ozioko, Oliver",
+         "Karipoth, Prakash",
+         "Hersh, Marion",
+         "Dahiya, Ravinder"
+      ],
+      "doi" : "10.1109/TNSRE.2020.2986222",
+      "eid" : "213043",
+      "rest" : "IEEE Transactions on Neural Systems and Rehabilitation Engineering, 28(6), pp. 1344-1352.",
+      "title" : "Wearable assistive tactile communication interface based on integrated touch sensors and actuators.",
+      "type" : "article",
+      "year" : "2020"
+   },
+   {
+      "authors" : [
+         "Hersh, Marion"
+      ],
+      "doi" : "10.1145/3375279",
+      "eid" : "207781",
+      "rest" : "ACM Transactions on Accessible Computing, 13(2), 6.",
+      "title" : "Mental maps and the use of sensory information by blind and partially sighted people.",
+      "type" : "article",
+      "year" : "2020"
+   },
+   {
+      "authors" : [
+         "Hersh, Marion"
+      ],
+      "doi" : "10.5241/10-173",
+      "eid" : "214415",
+      "rest" : "Journal of Blindness Innovation and Research, 10(2)",
+      "title" : "Route learning by blind and partially sighted people.",
+      "type" : "article",
+      "year" : "2020"
+   },
+   {
+      "authors" : [
+         "Hersh, Marion",
+         "Mouroutsou, Stella"
+      ],
+      "doi" : "10.1111/bjet.12737",
+      "eid" : "175300",
+      "rest" : "British Journal of Educational Technology, 50(6), pp. 3329-3344.",
+      "title" : "Learning technology and disability - overcoming barriers to inclusion: evidence from a multi-country study.",
+      "type" : "article",
+      "year" : "2019"
+   },
+   {
+      "authors" : [
+         "Hersh, Marion",
+         "Elley, Sharon"
+      ],
+      "doi" : "10.1108/AIA-06-2018-0021",
+      "eid" : "178550",
+      "rest" : "Advances in Autism, 5(2), pp. 117-130.",
+      "title" : "Barriers and enablers of inclusion for young autistic learners.",
+      "type" : "article",
+      "year" : "2019"
+   },
+   {
+      "authors" : [
+         "Hersh, Marion",
+         "Leporini, Barbara"
+      ],
+      "doi" : "10.1007/978-3-030-16785-1_8",
+      "eid" : "177651",
+      "rest" : "In: Proceedings of the 4th Workshop on ICTS for Improving Patients Rehabilitation Research Techniques (REHAB 2016). Series: Communications in computer and information science, 1002. Springer, pp. 95-115. ISBN 9783030167844",
+      "title" : "Serious games for the rehabilitation of disabled people: results of a multilingual survey.",
+      "type" : "in",
+      "year" : "2019"
+   },
+   {
+      "authors" : [
+         "Ozioko, Oliver",
+         "Hersh, Marion",
+         "Dahiya, Ravinder"
+      ],
+      "doi" : "10.1109/ICSENS.2018.8589826",
+      "eid" : "201381",
+      "rest" : "In: 2018 IEEE Sensors, New Delhi, India, 28-31 Oct 2018, ISBN 9781538647073",
+      "title" : "Inductance-based Flexible Pressure Sensor for Assistive Gloves.",
+      "type" : "in",
+      "year" : "2018"
+   },
+   {
+      "authors" : [
+         "Ozioko, Oliver",
+         "Navaraj, William T.",
+         "Yogeswaran, Nivasan",
+         "Hersh, Marion",
+         "Dahiya, Ravinder"
+      ],
+      "doi" : "10.1109/ROMAN.2018.8525725",
+      "eid" : "201386",
+      "rest" : "In: 27th IEEE International Symposium on Robot and Human Interactive Communication (RO-MAN), Nanjing, China, 27-31 Aug 2018, pp. 416-421. ISBN 9781538679814",
+      "title" : "Tactile Communication System for the Interaction between Deafblind and Robots.",
+      "type" : "in",
+      "year" : "2018"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A.",
+         "Pissaloux, Edwige",
+         "Velazquez, Ramiro"
+      ],
+      "doi" : "10.1007/978-3-319-54446-5_13",
+      "eid" : "132587",
+      "rest" : "In: Pissaloux, Edwige and Velazquez, Ramiro (eds.) Mobility of Visually Impaired People: Fundamentals and ICT Assistive Technologies. Springer, pp. 377-409. ISBN 9783319544441",
+      "title" : "Mobility technologies for blind, partially sighted and deafblind people: design issues.",
+      "type" : "in",
+      "year" : "2018"
+   },
+   {
+      "authors" : [
+         "Hersh, Marion",
+         "Leporini, Barbara"
+      ],
+      "doi" : "10.1111/bjet.12650",
+      "eid" : "163525",
+      "rest" : "British Journal of Educational Technology, 49(4), pp. 587-595.",
+      "title" : "Serious games, education and inclusion for disabled people editorial.",
+      "type" : "article",
+      "year" : "2018"
+   },
+   {
+      "authors" : [
+         "Hersh, Marion Ann",
+         "García Ramírez, Alejandro R."
+      ],
+      "doi" : "10.1080/0144929X.2018.1490454",
+      "eid" : "165153",
+      "rest" : "Behaviour and Information Technology, 37(12), pp. 1203-1223.",
+      "title" : "Evaluation of the electronic long cane: improving mobility in urban environments.",
+      "type" : "article",
+      "year" : "2018"
+   },
+   {
+      "authors" : [
+         "Bohdan Lewoc, Józef",
+         "Hersh, Marion",
+         "Fitzgibbon, Mike"
+      ],
+      "doi" : "10.1016/j.ifacol.2017.08.1125",
+      "eid" : "151198",
+      "rest" : "In: IFAC 2017 World Congress, Toulouse, France, 9-14 July 2017, pp. 6379-6384.",
+      "title" : "Non-Maleficience: Professional Practice in Poland.",
+      "type" : "in",
+      "year" : "2017"
+   },
+   {
+      "authors" : [
+         "Hersh, Marion"
+      ],
+      "doi" : "10.1016/j.ifacol.2017.08.1031",
+      "eid" : "151194",
+      "rest" : "In: IFAC 2017 World Congress, Toulouse, France, 9-14 July 2017, pp. 10614-10619.",
+      "title" : "Ethical Engineering and Respect for The ‘Other’.",
+      "type" : "in",
+      "year" : "2017"
+   },
+   {
+      "authors" : [
+         "Hersh, Marion"
+      ],
+      "doi" : "10.1016/j.ifacol.2017.08.1316",
+      "eid" : "151196",
+      "rest" : "In: IFAC 2017 World Congress, Toulouse, France, 9-14 July 2017, pp. 10592-10602.",
+      "title" : "Professional Ethics and Social Responsibility: Military Work and Peacebuilding.",
+      "type" : "in",
+      "year" : "2017"
+   },
+   {
+      "authors" : [
+         "Hersh, Marion"
+      ],
+      "doi" : "10.1111/bjet.12461",
+      "eid" : "132609",
+      "rest" : "British Journal of Educational Technology, 48(3), pp. 768-788.",
+      "title" : "Classification framework for ICT-based learning technologies for disabled people.",
+      "type" : "article",
+      "year" : "2017"
+   },
+   {
+      "authors" : [
+         "Pissaloux, E.",
+         "Velazquez, R.",
+         "Hersh, M.",
+         "Uzan, G."
+      ],
+      "doi" : "10.1017/S0373463316000461",
+      "eid" : "132599",
+      "rest" : "Journal of Navigation, 70(1), pp. 1-17.",
+      "title" : "Towards a cognitive model of human mobility: an investigation of tactile perception for use in mobility device.",
+      "type" : "article",
+      "year" : "2017"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A.",
+         "Pissaloux, Edwige",
+         "Velazquez, Ramiro"
+      ],
+      "doi" : "10.1007/978-3-319-54446-5_21",
+      "eid" : "132588",
+      "rest" : "In: Pissaloux, Edwige and Velazquez, Ramiro (eds.) Mobility of Visually Impaired People: Fundamentals and ICT Assistive Technologies. Springer, pp. 631-648. ISBN 9783319544465",
+      "title" : "Mobility, inclusion and exclusion.",
+      "type" : "in",
+      "year" : "2017"
+   },
+   {
+      "authors" : [
+         "Hersh, Marion",
+         "Leporini, Barbara"
+      ],
+      "doi" : "10.3233/978-1-61499-798-6-630",
+      "eid" : "148289",
+      "rest" : "Studies in Health Technology and Informatics, 242, pp. 630-637.",
+      "title" : "Mobile recommender apps with privacy management for accessible and usable technologies.",
+      "type" : "article",
+      "year" : "2017"
+   },
+   {
+      "authors" : [
+         "Hoogerwerf, Evert-Jan",
+         "Solander-Gross, Andrea",
+         "Mavrou, Katerina",
+         "Traina, Ivan",
+         "Hersh, Marion"
+      ],
+      "doi" : "10.3233/978-1-61499-798-6-820",
+      "eid" : "148288",
+      "rest" : "Studies in Health Technology and Informatics, 242, pp. 820-827.",
+      "title" : "A self-assessment framework for inclusive schools supporting assistive technology users.",
+      "type" : "article",
+      "year" : "2017"
+   },
+   {
+      "authors" : [
+         "Ozioko, Oliver",
+         "Taube, William",
+         "Hersh, Marion",
+         "Dahiya, Ravinder"
+      ],
+      "doi" : "10.1109/ISIE.2017.8001563",
+      "eid" : "149763",
+      "rest" : "In: 2017 IEEE 26th International Symposium on Industrial Electronics, Edinburgh, UK, 19-21 Jun 2017, pp. 2014-2018. ISBN 9781509014125",
+      "title" : "SmartFingerBraille: A Tactile Sensing and Actuation Based Communication Glove for Deafblind People.",
+      "type" : "in",
+      "year" : "2017"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : "10.1007/s00146-015-0594-7",
+      "eid" : "132648",
+      "rest" : "AI and Society, 31(3), pp. 327-345.",
+      "title" : "Engineers and the other: the role of narrative ethics.",
+      "type" : "article",
+      "year" : "2016"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : "10.1177/0047287514546225",
+      "eid" : "98534",
+      "rest" : "Journal of Travel Research, 55(3), pp. 380-394.",
+      "title" : "Improving deafblind travelers' experiences: an international survey.",
+      "type" : "article",
+      "year" : "2016"
+   },
+   {
+      "authors" : [
+         "Hersh, Marion"
+      ],
+      "doi" : null,
+      "eid" : "132608",
+      "rest" : "Journal of Socialomics, 5, 148.",
+      "title" : "Terrorism, human rights and ethics: a modelling approach.",
+      "type" : "article",
+      "year" : "2016"
+   },
+   {
+      "authors" : [
+         "Hersh, Marion",
+         "Miesenberger, Klaus",
+         "Bühler, Christian",
+         "Penaz, Petr"
+      ],
+      "doi" : "10.1007/978-3-319-41264-1_64",
+      "eid" : "132277",
+      "rest" : "In: Miesenberger, Klaus, Bühler, Christian and Penaz, Petr (eds.) Computers Helping People with Special Needs: 15th International Conference, ICCHP 2016, Linz, Austria, July 13-15, 2016, Proceedings, Part I. Series: Lecture notes in computer science (9758). Springer International Publishing: Cham, pp. 475-482. ISBN 9783319412634",
+      "title" : "Designing effective learning technologies for autistic people.",
+      "type" : "in",
+      "year" : "2016"
+   },
+   {
+      "authors" : [
+         "Hersh, Marion",
+         "Miesenberger, Klaus",
+         "Bühler, Christian",
+         "Penaz, Petr"
+      ],
+      "doi" : null,
+      "eid" : "132276",
+      "rest" : "In: Miesenberger, Klaus, Bühler, Christian and Penaz, Petr (eds.) Computers Helping People with Special Needs: 15th International Conference, ICCHP 2016, Linz, Austria, July 13-15, 2016, Proceedings, Part I. Series: Lecture notes in computer science (9758). Springer International Publishing: Cham, pp. 470-473. ISBN 9783319412634",
+      "title" : "Inclusive settings, pedagogies and approaches in ICT based learning for disabled and non-disabled people: introduction to the special thematic session.",
+      "type" : "in",
+      "year" : "2016"
+   },
+   {
+      "authors" : [
+         "Hersh, Marion",
+         "Darvishy, Alireza",
+         "Miesenberger, Klaus",
+         "Bühler, Christian",
+         "Penaz, Petr"
+      ],
+      "doi" : null,
+      "eid" : "132272",
+      "rest" : "In: Miesenberger, Klaus, Bühler, Christian and Penaz, Petr (eds.) Computers Helping People with Special Needs: 15th International Conference, ICCHP 2016, Linz, Austria, July 13-15, 2016, Proceedings, Part I. Series: Lecture notes in computer science (9758). Springer International Publishing: Cham, pp. 152-155. ISBN 9783319412634",
+      "title" : "Mobile apps and platforms: introduction to the special thematic session.",
+      "type" : "in",
+      "year" : "2016"
+   },
+   {
+      "authors" : [
+         "Leporini, B.",
+         "Hersh, Marion A."
+      ],
+      "doi" : null,
+      "eid" : "132654",
+      "rest" : "In: Rehab 2016: 4th Workshop on ICTS for Improving Patients Rehabilitation Research Techniques, Lisbon, Portugal, 13-14 Oct 2016",
+      "title" : "Games for the Rehabilitation of Disabled People.",
+      "type" : "in",
+      "year" : "2016"
+   },
+   {
+      "authors" : [
+         "Bednarik, Robert G."
+      ],
+      "doi" : null,
+      "eid" : "132590",
+      "rest" : "In: Bednarik, Robert G. (ed.) Understanding Human Behavior: Theories, Patterns and Developments. Series: Perspectives on cognitive psychology. Nova Science Publishing: Hauppauge, pp. 211-261. ISBN 9781634852135",
+      "title" : "Human behaviour case studies for the ICT and automation industries in Poland.",
+      "type" : "in",
+      "year" : "2016"
+   },
+   {
+      "authors" : [
+         "Hersh, Marion"
+      ],
+      "doi" : "10.5772/59230",
+      "eid" : "101946",
+      "rest" : "International Journal of Advanced Robotic Systems, 12, 114.",
+      "title" : "Overcoming barriers and increasing independence: service robots for elderly and disabled people.",
+      "type" : "article",
+      "year" : "2015"
+   },
+   {
+      "authors" : [
+         "Hersh, Marion"
+      ],
+      "doi" : null,
+      "eid" : "101707",
+      "rest" : "Springer. ISBN 9781447166177",
+      "title" : "Ethical Engineering for International Development and Environmental Sustainability.",
+      "type" : "book",
+      "year" : "2015"
+   },
+   {
+      "authors" : [
+         "Hersh, Marion"
+      ],
+      "doi" : "10.3233/TAD-150432",
+      "eid" : "132650",
+      "rest" : "Technology and Disability, 27(3), pp. 103-116.",
+      "title" : "Cane use and late onset visual impairment.",
+      "type" : "article",
+      "year" : "2015"
+   },
+   {
+      "authors" : [
+         "Hersh, Marion A."
+      ],
+      "doi" : null,
+      "eid" : "132656",
+      "rest" : "In: 13th AAATE Conference, Budapest, Hungary, 9-12 Sept 2015, pp. 19-26. ISBN 0926-9630",
+      "title" : "ICT Learning Technologies for Disabled People: Recommendations for Good Practice.",
+      "type" : "in",
+      "year" : "2015"
+   },
+   {
+      "authors" : [
+         "Hersh, Marion A."
+      ],
+      "doi" : null,
+      "eid" : "132651",
+      "rest" : "In: 16th IFAC Conference On Technology, Culture and International Stability (TECIS 2015), Sozopol, Bulgaria, 24-27 Sept. 2015",
+      "title" : "Systemic Approaches and Technological Fixes [Invited paper].",
+      "type" : "in",
+      "year" : "2015"
+   },
+   {
+      "authors" : [
+         "Hersh, Marion A.",
+         "Mouroutsou, Stella"
+      ],
+      "doi" : null,
+      "eid" : "132652",
+      "rest" : "In: 16th IFAC Conference On Technology, Culture and International Stability (TECIS 2015), Sozopol, Bulgaria, 24-27 Sept. 2015",
+      "title" : "Learning Technology and Disability: Overcoming Barriers to Inclusion - Evidence from a Multi-Country Study [Invited paper].",
+      "type" : "in",
+      "year" : "2015"
+   },
+   {
+      "authors" : [
+         "Lewoc, J.B.",
+         "Leitgeb, E.",
+         "Izworski, A.",
+         "Kieleczawa, A.",
+         "Hersh, Marion A.",
+         "Bulz, N."
+      ],
+      "doi" : null,
+      "eid" : "132653",
+      "rest" : "In: 16th IFAC Conference On Technology, Culture and International Stability (TECIS 2015), Sozopol, Bulgaria, 24-27 Sept. 2015",
+      "title" : "Cultural Aspects of Computer Networks in Tennis [Invited paper].",
+      "type" : "in",
+      "year" : "2015"
+   },
+   {
+      "authors" : [
+         "Ozioko, Oliver",
+         "Hersh, Marion A."
+      ],
+      "doi" : null,
+      "eid" : "132655",
+      "rest" : "In: 13th AAATE Conference, Budapest, Hungary, 9-12 Sept 2015, pp. 518-525.",
+      "title" : "Development of a Portable Two-Way Communication and Information Device for Deafblind People.",
+      "type" : "in",
+      "year" : "2015"
+   },
+   {
+      "authors" : [
+         "Hersh, Marion"
+      ],
+      "doi" : "10.1016/j.compedu.2014.05.001",
+      "eid" : "94787",
+      "rest" : "Computers and Education, 78, pp. 30-47.",
+      "title" : "Evaluation framework for ICT-based learning technologies for disabled people.",
+      "type" : "article",
+      "year" : "2014"
+   },
+   {
+      "authors" : [
+         "Hersh, Marion"
+      ],
+      "doi" : "10.1007/s00146-013-0473-z",
+      "eid" : "93551",
+      "rest" : "AI and Society, 29(2), pp. 167-183.",
+      "title" : "Science, technology and values: promoting ethics and social responsibility.",
+      "type" : "article",
+      "year" : "2014"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102475",
+      "rest" : "In: Autism and Participation Conference, London, England, 28 Jan 2014",
+      "title" : "Participation in Academic Life and Political Activity: Barriers and Ways of Overcoming Them.",
+      "type" : "in",
+      "year" : "2014"
+   },
+   {
+      "authors" : [
+         "Hersh, Marion"
+      ],
+      "doi" : "10.1007/978-3-319-08599-9_48",
+      "eid" : "102212",
+      "rest" : "Lecture Notes in Computer Science, 8548, pp. 315-322.",
+      "title" : "Evaluating ICT based learning technologies for disabled people.",
+      "type" : "article",
+      "year" : "2014"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : "10.1016/j.arcontrol.2013.09.013",
+      "eid" : "93491",
+      "rest" : "Annual Reviews in Control, 37(2), pp. 365-381.",
+      "title" : "Barriers to ethical behaviour and stability: stereotyping and scapegoating as pretexts for avoiding responsibility.",
+      "type" : "article",
+      "year" : "2013"
+   },
+   {
+      "authors" : [
+         "Hersh, Marion"
+      ],
+      "doi" : "10.1093/deafed/ent022",
+      "eid" : "93550",
+      "rest" : "Journal of Deaf Studies and Deaf Education, 18(4), pp. 446-463.",
+      "title" : "Deafblind people, communication, independence, and isolation.",
+      "type" : "article",
+      "year" : "2013"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102420",
+      "rest" : "In: 12th European Association for the Advancement of Assistive Technology in Europe Conference, Vilamoura, Portugal, 19-22 Sep 2013, pp. 1154-1164.",
+      "title" : "Classification of ICT-Based Learning Technologies for Disabled People: Outcomes of Enable Network Project.",
+      "type" : "in",
+      "year" : "2013"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "93549",
+      "rest" : "Technology and Disability, 25(4), pp. 245-261.",
+      "title" : "Deafblind people, stigma and the use of communication and mobility assistive devices.",
+      "type" : "article",
+      "year" : "2013"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102476",
+      "rest" : "In: RAate Conference, Warwick, England, 25 Nov 2013",
+      "title" : "Evaluation of ICT to Support Life Long learning by Disabled People.",
+      "type" : "in",
+      "year" : "2013"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102391",
+      "rest" : "In: International Conference on Autism Spectrum: Spectrum of Methods Research and Practice, Krakow, Poland",
+      "title" : "Increasing Opportunities: Applications of Assistive Technology for Autistic, Deafblind and Blind People.",
+      "type" : "in",
+      "year" : "2013"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102478",
+      "rest" : "In: International Conference on Using New Technologies for Inclusive Learning, Glasgow, Scotland, 28 Aug 2013",
+      "title" : "Modelling and Evaluating ICT-Based Lifelong Learning for Disabled People.",
+      "type" : "in",
+      "year" : "2013"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A.",
+         "Evans, S.",
+         "Ball, S."
+      ],
+      "doi" : null,
+      "eid" : "102477",
+      "rest" : "In: Association for Learning Technologies (ALT) Conference, Nottingham, England, 10-12 Sep 2013",
+      "title" : "Enable Network on ICT to Support Lifelong Learning by Disabled Students.",
+      "type" : "in",
+      "year" : "2013"
+   },
+   {
+      "authors" : [
+         "Hersh, Marion A.",
+         "Leporini, Barbara",
+         "Gonzalez, Carina"
+      ],
+      "doi" : null,
+      "eid" : "101709",
+      "rest" : "In: Gonzalez, Carina (ed.) Student Usability in Educational Software and Games: Improving Experiences. IGI Global: Hershey, PA, pp. 1-40. ISBN 9781466619876",
+      "title" : "An overview of accessibility and usability of educational games.",
+      "type" : "in",
+      "year" : "2013"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102421",
+      "rest" : "In: Microlearning 6.0: Designing Microlearning Experiences, Innsbruck, Austria, 9-10 Jul 2012",
+      "title" : "Microlearning and the Design of Assistive Technology.",
+      "type" : "in",
+      "year" : "2012"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102422",
+      "rest" : "In: International Stability and Technology Conference: SWIIS 2012, Waterford, Ireland, 11-13 Jun 2012",
+      "title" : "Science, Technology and Values: Promoting Ethics and Social Responsibility.",
+      "type" : "in",
+      "year" : "2012"
+   },
+   {
+      "authors" : [
+         "Hersh, Marion",
+         "Johnson, Michael A."
+      ],
+      "doi" : "10.3233/ABB-2011-0034",
+      "eid" : "93552",
+      "rest" : "Applied Bionics and Biomechanics, 9(1), pp. 29-43.",
+      "title" : "A robotic guide for blind people Part 2: gender and national analysis of a multi-national survey and the application of the survey results and the CAT model to framing robot design specifications.",
+      "type" : "article",
+      "year" : "2012"
+   },
+   {
+      "authors" : [
+         "Hersh, Marion",
+         "Leporini, Barbara"
+      ],
+      "doi" : "10.1109/ICALT.2012.181",
+      "eid" : "102027",
+      "rest" : "In: IEEE International Conference on Advanced Learning Technologies, Rome, Italy, 4-6 July 2012, pp. 752-753. ISBN 9781467316422",
+      "title" : "Accessibility and Usability of Educational Gaming Environments for Disabled Students.",
+      "type" : "in",
+      "year" : "2012"
+   },
+   {
+      "authors" : [
+         "Hersh, Marion A.",
+         "Vinthagen, S.",
+         "Kentrick, J.",
+         "Mason, K."
+      ],
+      "doi" : null,
+      "eid" : "101712",
+      "rest" : "In: Vinthagen, S., Kentrick, J. and Mason, K. (eds.) Tackling Trident: Academics in Action through 'Academic Conference Blockades'. Series: Resistance studies. Irene Publishing, pp. 103-118. ISBN 9781471751042",
+      "title" : "Ethical analysis of trident: the application of different ethical theories.",
+      "type" : "in",
+      "year" : "2012"
+   },
+   {
+      "authors" : [
+         "Hersh, Marion A.",
+         "Vinthagen, S.",
+         "Kentrick, J.",
+         "Mason, K."
+      ],
+      "doi" : null,
+      "eid" : "101718",
+      "rest" : "In: Vinthagen, S., Kentrick, J. and Mason, K. (eds.) Tackling Trident: Academics in Action through 'Academic Conference Blockades'. Series: Resistance studies. Irene Publishing, pp. 103-118. ISBN 9781471751042",
+      "title" : "Military research, ethics, values and academic freedom.",
+      "type" : "in",
+      "year" : "2012"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : "10.3182/20110828-6-IT-1002.02475",
+      "eid" : "102447",
+      "rest" : "In: 18th World Congress of the International Federation of Automatic Control (IFAC), Milan, Italy, 28th Aug - 2 Sep 2011, pp. 3998-4009.",
+      "title" : "Barriers To Ethical Behaviour and Stability: Stereotyping and Scapegoating as Pretexts for Avoiding Responsibility.",
+      "type" : "in",
+      "year" : "2011"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : "10.3182/20110828-6-IT-1002.02449",
+      "eid" : "102448",
+      "rest" : "In: 18th World Congress of the International Federation of Automatic Control (IFAC), Milan, Italy, 28th Aug - 2 Sep 2011, pp. 4010-4015.",
+      "title" : "Participative Research With Diverse End-User Groups: Multi-Language, Multi-Country Blind and Visually Impaired People.",
+      "type" : "in",
+      "year" : "2011"
+   },
+   {
+      "authors" : [
+         "Hersh, Marion A.",
+         "Moss, G."
+      ],
+      "doi" : null,
+      "eid" : "101737",
+      "rest" : "In: Moss, G. (ed.) Lessons on Profiting from Diversity. Palgrave Macmillan. ISBN 9780230250208",
+      "title" : "Deaf people in the workplace.",
+      "type" : "in",
+      "year" : "2011"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A.",
+         "Blouin, M.",
+         "Stone, J."
+      ],
+      "doi" : null,
+      "eid" : "46407",
+      "rest" : "In: Blouin, M. and Stone, J. (eds.) International Encyclopedia of Rehabilitation [online]. CIRRIE.",
+      "title" : "The design and evaluation of assistive technology products and devices part 3: Outcomes of assistive product use.",
+      "type" : "in",
+      "year" : "2010"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : "10.3182/20101027-3-XK-4018.00006",
+      "eid" : "102480",
+      "rest" : "In: IFAC Workshop on Supplemental Ways for Improving International Stability, Pristina, Kosovo, 2013, pp. 17-24.",
+      "title" : "Methodological Issues in Multi-Country Multi-Language Participative Research with Blind and Visually Impaired People.",
+      "type" : "in",
+      "year" : "2010"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A.",
+         "Johnson, M.A."
+      ],
+      "doi" : "10.1080/11762322.2010.523626",
+      "eid" : "46418",
+      "rest" : "Applied Bionics and Biomechanics, 7(4), pp. 277-288.",
+      "title" : "A robotic guide for blind people part 1: a multi-national survey of the attitudes, requirements and preferences of potential end-users.",
+      "type" : "article",
+      "year" : "2010"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A.",
+         "Ohene-Djan, J."
+      ],
+      "doi" : null,
+      "eid" : "46420",
+      "rest" : "In: 10th IEEE International Conference on Advanced Learning Technologies (ICALT 2010), Sousse, Tunisia, 5-7 Jul 2010",
+      "title" : "Representing Contextual Features of Subtitles in an Educational Context.",
+      "type" : "in",
+      "year" : "2010"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A.",
+         "Ohene-Djan, J.",
+         "Naqvi, S."
+      ],
+      "doi" : "10.1080/10852352.2010.509021",
+      "eid" : "46410",
+      "rest" : "Journal of Prevention and Intervention in the Community, 38(4), pp. 290-305.",
+      "title" : "Investigating road safety issues and deaf people in the UK: an empirical study and recommendations for good practice.",
+      "type" : "article",
+      "year" : "2010"
+   },
+   {
+      "authors" : [
+         "Hersh, Marion A.",
+         "Blouin, M.",
+         "Stone, J."
+      ],
+      "doi" : null,
+      "eid" : "46390",
+      "rest" : "In: Blouin, M. and Stone, J. (eds.) International Encyclopedia of Rehabilitation [online]. CIRRIE.",
+      "title" : "The design and evaluation of assistive technology products and devices Part 1: Design.",
+      "type" : "in",
+      "year" : "2010"
+   },
+   {
+      "authors" : [
+         "Hersh, Marion A.",
+         "Blouin, M.",
+         "Stone, S."
+      ],
+      "doi" : null,
+      "eid" : "46406",
+      "rest" : "In: Blouin, M. and Stone, S. (eds.) International Encyclopedia of Rehabilitation [online]. CIRRIE.",
+      "title" : "The design and evaluation of assistive technology products and devices Part 2: Evaluation of assistive products.",
+      "type" : "in",
+      "year" : "2010"
+   },
+   {
+      "authors" : [
+         "Hersh, Marion A.",
+         "Moss, G."
+      ],
+      "doi" : null,
+      "eid" : "46386",
+      "rest" : "In: Moss, G. (ed.) Profiting from Diversity: the Business Advantages and the Obstacles to Achieving Diversity. Palgrave Macmillan. ISBN 9780230516168",
+      "title" : "Disabled people and employment: barriers to potential solutions.",
+      "type" : "in",
+      "year" : "2010"
+   },
+   {
+      "authors" : [
+         "Moss, Gloria",
+         "Kubacki, Krzysztof",
+         "Hersh, Marion",
+         "Gunn, Rod",
+         "Moss, G."
+      ],
+      "doi" : null,
+      "eid" : "101743",
+      "rest" : "In: Moss, G. (ed.) Profiting from Diversity: the Business Advantages and the Obstacles to Achieving Diversity. Palgrave Macmillan. ISBN 9780230516168",
+      "title" : "Knowledge management and the positive impact of a collectivist culture.",
+      "type" : "in",
+      "year" : "2010"
+   },
+   {
+      "authors" : [
+         "Ohene-Djan, J.",
+         "Hersh, M.A.",
+         "Naqvi, S."
+      ],
+      "doi" : "10.1080/10852352.2010.509023",
+      "eid" : "46411",
+      "rest" : "Journal of Prevention and Intervention in the Community, 38(4), pp. 316-331.",
+      "title" : "Road safety and deaf people: the role of the police.",
+      "type" : "article",
+      "year" : "2010"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102482",
+      "rest" : "In: EFMI Special Topic Conference, Antalya, Turkey, 12-15 Nov 2009",
+      "title" : "The Application of Information and Other Technologies to Improve the Mobility of Blind, Visually Impaired and Deafblind People, Travel Health Informatics And Telehealth.",
+      "type" : "in",
+      "year" : "2009"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102205",
+      "rest" : "In: CVHI 2009: Conference and Workshop on Assistive Technologies for People with Vision and Hearing Impairments, Wroclaw, Poland, 20-23 Apr 2009, (Unpublished)",
+      "title" : "Designing Assistive Technology to Support Independent Travel for Blind and Visually Impaired People.",
+      "type" : "in",
+      "year" : "2009"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A.",
+         "Johnson, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102500",
+      "rest" : "In: CVHI 2009, Wroclaw, Poland, 20-23 Apr 2009",
+      "title" : "Using the Comprehensive Assistive Technology (CAT) Model in an Assistive Technology Outcome Procedure with Personal Assistive Technology Profiles.",
+      "type" : "in",
+      "year" : "2009"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A.",
+         "Ohene-Djan, J."
+      ],
+      "doi" : null,
+      "eid" : "102504",
+      "rest" : "In: CVHI 2009, Wroclaw, Poland, 20-23 Apr 2009",
+      "title" : "Representing Emotions and the Context in Subtitles.",
+      "type" : "in",
+      "year" : "2009"
+   },
+   {
+      "authors" : [
+         "Hersh, Marion A.",
+         "Johnson, Michael A."
+      ],
+      "doi" : null,
+      "eid" : "101939",
+      "rest" : "Springer. ISBN 9781846288661",
+      "title" : "Assistive Technology for Visually Impaired and Blind People.",
+      "type" : "book",
+      "year" : "2008"
+   },
+   {
+      "authors" : [
+         "Hersh, M."
+      ],
+      "doi" : null,
+      "eid" : "35065",
+      "rest" : "In: 8th IEEE International Conference on Advanced Learning Technologies, Proceedings. IEEE Computer Society: Los Alamitos, CA, pp. 1038-1039. ISBN 978-0-7695-3167-0",
+      "title" : "Acessibility and usability of virtual learning environments.",
+      "type" : "in",
+      "year" : "2008"
+   },
+   {
+      "authors" : [
+         "Hersh, M.",
+         "Leporini, B.",
+         "Miesenberger, K.",
+         "Klaus, J",
+         "Zagler, W.",
+         "Karshmer, A."
+      ],
+      "doi" : null,
+      "eid" : "35064",
+      "rest" : "In: Miesenberger, K., Klaus, J, Zagler, W. and Karshmer, A. (eds.) Computers Helping People with Special Needs, Proceedings. Series: Lecture Notes in Computer Science (5105). Springer-Verlag: Berlin, pp. 326-333. ISBN 978-3-540-70539-0",
+      "title" : "Making conference CDs accessible: A practical example.",
+      "type" : "in",
+      "year" : "2008"
+   },
+   {
+      "authors" : [
+         "Hersh, Marion"
+      ],
+      "doi" : "10.1109/ICALT.2008.155",
+      "eid" : "102449",
+      "rest" : "In: 8th IEEE International Conference on Advanced Learning Technologies, Santander, Spain, 1-5 Jul 2008, pp. 991-992.",
+      "title" : "Accessibility and Usability of Virtual Learning Environments.",
+      "type" : "in",
+      "year" : "2008"
+   },
+   {
+      "authors" : [
+         "Hersh, Marion",
+         "Fuchs, Rainer",
+         "Stuhler, Elmar A",
+         "Misra, Sasi"
+      ],
+      "doi" : null,
+      "eid" : "101941",
+      "rest" : "In: Fuchs, Rainer, Stuhler, Elmar A and Misra, Sasi (eds.) Across Disciplinary Boundaries Towards a Sustainable Life: Psychodynamic Reflection on Human Behaviour. Series: Research on cases and theories (12). Hampp, pp. 95-105. ISBN 9783866182059",
+      "title" : "Eco-design for all: principles and practice.",
+      "type" : "in",
+      "year" : "2008"
+   },
+   {
+      "authors" : [
+         "Hersh, Marion",
+         "Leporini, Barbara"
+      ],
+      "doi" : "10.1007/978-3-540-70540-6_48",
+      "eid" : "102505",
+      "rest" : "In: ICCHP 2008, Linz, Austria, 9-11 Jul 2008, pp. 326-333.",
+      "title" : "Making Conference CDs Accessible: A Practical Example.",
+      "type" : "in",
+      "year" : "2008"
+   },
+   {
+      "authors" : [
+         "Hersh, Marion A.",
+         "Mordini, E.",
+         "Mannari, S."
+      ],
+      "doi" : null,
+      "eid" : "101748",
+      "rest" : "In: Mordini, E. and Mannari, S. (eds.) Including Seniors in the Information society 28 World Leading Expert Talks on Privacy, Ethics, Technology and Aging. CIC Edizioni Internazionali: Rome.",
+      "title" : "Assistive technology, education and the elderly, interview.",
+      "type" : "in",
+      "year" : "2008"
+   },
+   {
+      "authors" : [
+         "Hersh, Marion A.",
+         "Fuchs, R.",
+         "Stuhler, E.A.",
+         "Misra, S."
+      ],
+      "doi" : null,
+      "eid" : "101761",
+      "rest" : "In: Fuchs, R., Stuhler, E.A. and Misra, S. (eds.) Across Disciplinary Boundaries Towards a Sustainable Life: psychodynamic reflection on human behaviour. Series: Research on cases and theories (12). Hampp, pp. 197-216. ISBN 9783866182059",
+      "title" : "Ecodesign for all: principles and practice.",
+      "type" : "in",
+      "year" : "2008"
+   },
+   {
+      "authors" : [
+         "Hersh, Marion A.",
+         "Johnson, Michael A."
+      ],
+      "doi" : null,
+      "eid" : "47876",
+      "rest" : "Technology and Disability, 20(3), pp. 193-215.",
+      "title" : "On modelling assistive technology systems part I: modelling framework.",
+      "type" : "article",
+      "year" : "2008"
+   },
+   {
+      "authors" : [
+         "Hersh, Marion A.",
+         "Johnson, Michael A."
+      ],
+      "doi" : null,
+      "eid" : "47877",
+      "rest" : "Technology and Disability, 20(4), pp. 251-270.",
+      "title" : "On modelling assistive technology systems part II: applications of the comprehensive assistive technology model.",
+      "type" : "article",
+      "year" : "2008"
+   },
+   {
+      "authors" : [
+         "Moss, Gloria",
+         "Kubacki, Krzysztof",
+         "Hersh, Marion",
+         "Gunn, Rod"
+      ],
+      "doi" : "10.1111/j.1465-3435.2007.00314.x",
+      "eid" : "101978",
+      "rest" : "European Journal of Education, 42(3), pp. 377-394.",
+      "title" : "Knowledge management in Higher Education: a comparison of individualistic and collectivist cultures.",
+      "type" : "article",
+      "year" : "2007"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A.",
+         "Moss, G."
+      ],
+      "doi" : null,
+      "eid" : "102451",
+      "rest" : "In: 4th International Conference on Cybernetics and Information Technologies, Systems and Applications (CITSA 2007), 2007",
+      "title" : "New Media and the Digital Divide: Accessibility and Usability for Disabled People and Women.",
+      "type" : "in",
+      "year" : "2007"
+   },
+   {
+      "authors" : [
+         "Hersh, Marion A.",
+         "Johnson, Michael A."
+      ],
+      "doi" : "10.1109/ICALT.2007.41",
+      "eid" : "102450",
+      "rest" : "In: 7th IEEE International Conference on Advanced Learning Technologies (ICALT 2007), Niigata, Japan, 18-20 Jul 2007, pp. 919-920.",
+      "title" : "A User-Centred Approach for Developing Advanced Learning Technologies Based on the Comprehensive Assistive Technology Model.",
+      "type" : "in",
+      "year" : "2007"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A.",
+         "Johnson, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102454",
+      "rest" : "In: CVHI 2006 Conference and Workshop on Assistive Technologies for People with Vision and Hearing Impairments, Kufstein, Austria, 2006",
+      "title" : "On Modelling Assistive Technology Systems.",
+      "type" : "in",
+      "year" : "2006"
+   },
+   {
+      "authors" : [
+         "Hersh, Marion"
+      ],
+      "doi" : null,
+      "eid" : "101708",
+      "rest" : "Series: Environmental engineering. Springer: Berlin. ISBN 9783540242161",
+      "title" : "Mathematical Modelling for Sustainable Development.",
+      "type" : "book",
+      "year" : "2006"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "31054",
+      "rest" : "In: ISA 2006, Prishtina,Kosovo",
+      "title" : "The Economics and Politics of Energy Generation.",
+      "type" : "in",
+      "year" : "2006"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "31053",
+      "rest" : "In: ISA 2006, Prishtina,Kosovo",
+      "title" : "Terrorism, Human Rights and Ethics: A Modelling Approach.",
+      "type" : "in",
+      "year" : "2006"
+   },
+   {
+      "authors" : [
+         "Hersh, MA"
+      ],
+      "doi" : null,
+      "eid" : "31058",
+      "rest" : "In: Engineering Education in Sustainable Development, EESD 2006, Lyon, France",
+      "title" : "Mathematical modelling for sustainable development : Approaches and resources for teaching sustainable development.",
+      "type" : "in",
+      "year" : "2006"
+   },
+   {
+      "authors" : [
+         "Hersh, MA",
+         "Johnson, MA"
+      ],
+      "doi" : null,
+      "eid" : "31052",
+      "rest" : "In: AXMEDIS, Leeds,England, 2006",
+      "title" : "Accessibility of PDF documents.",
+      "type" : "in",
+      "year" : "2006"
+   },
+   {
+      "authors" : [
+         "Hersh, MA",
+         "Johnson, MA"
+      ],
+      "doi" : null,
+      "eid" : "31057",
+      "rest" : "In: CVHI 2006 Conference and Workshop on Assistive Technologies for People with Vision and Hearing Impairments, Kufstein, Austria, 2006",
+      "title" : "Assistive technology for blind and visually impaired people: modelling and pratical issues.",
+      "type" : "in",
+      "year" : "2006"
+   },
+   {
+      "authors" : [
+         "Hersh, MA",
+         "Johnson, MA"
+      ],
+      "doi" : null,
+      "eid" : "31056",
+      "rest" : "In: Conference and workshop on assistive technology for people with vision and hearing impairments 2006, Kufstein, Austria",
+      "title" : "On modelling assistive technology.",
+      "type" : "in",
+      "year" : "2006"
+   },
+   {
+      "authors" : [
+         "Hersh, MA",
+         "Stapleton, L"
+      ],
+      "doi" : null,
+      "eid" : "31055",
+      "rest" : "In: ISA 2006, Prishtina,Kosovo",
+      "title" : "LearnMaths: A case study of the development of learning software to support social inclusion.",
+      "type" : "in",
+      "year" : "2006"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : "10.3182/20050703-6-CZ-1902.02309",
+      "eid" : "102456",
+      "rest" : "In: 16th IFAC World Congress, Prague, Czech Republic, 4-8 Jul 2005, p. 2308.",
+      "title" : "Technology Development and Ethical Decision Making: Gatekeeping, Identity and Social Construction.",
+      "type" : "in",
+      "year" : "2005"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A.",
+         "Johnson, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102510",
+      "rest" : "In: 8th European Conference for the Advancement of Assistive Technology in Europe (AAATE 2005), Lille, France, 6-9 Sep 2005",
+      "title" : "Information Technology, Accessibility and Deafblind People.",
+      "type" : "in",
+      "year" : "2005"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A.",
+         "Stapleton, L."
+      ],
+      "doi" : null,
+      "eid" : "102452",
+      "rest" : "In: 16th IFAC Congress, Prague, Czech Republic, 4-8 Jul 2005",
+      "title" : "Applications of Narrative Ethics to Engineering.",
+      "type" : "in",
+      "year" : "2005"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A.",
+         "Tucker, W.D."
+      ],
+      "doi" : "10.3182/20050703-6-CZ-1902.02317",
+      "eid" : "102455",
+      "rest" : "In: 16th IFAC World Congress, Prague, Czech Republic, 4-8 Jul 2005, p. 2316.",
+      "title" : "Ethics and Mono-Disciplinarily: Positivism, Informed Consent and Informed Participation.",
+      "type" : "in",
+      "year" : "2005"
+   },
+   {
+      "authors" : [
+         "Hersh, MA",
+         "Johnson, MA"
+      ],
+      "doi" : null,
+      "eid" : "31658",
+      "rest" : "In: Assistive Technology: From Virtuality To Reality, Amsterdam, pp. 728-732.",
+      "title" : "Information technology, accessibility &amp; deafblind people.",
+      "type" : "in",
+      "year" : "2005"
+   },
+   {
+      "authors" : [
+         "Kubacki, K.",
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102506",
+      "rest" : "In: CMS-4, Cambridge, England, 2005",
+      "title" : "Cultural Influences on the Development of Intellectual Capital.",
+      "type" : "in",
+      "year" : "2005"
+   },
+   {
+      "authors" : [
+         "Hamburg, Ileana",
+         "Hersh, Marion",
+         "Gavota, Mihai",
+         "Lazea, Miona"
+      ],
+      "doi" : "10.1108/17415650480000024",
+      "eid" : "14784",
+      "rest" : "Interactive Technology and Smart Education, 1(3), pp. 205-216.",
+      "title" : "Open web-based learning environments and knowledge forums to support people with special needs.",
+      "type" : "article",
+      "year" : "2004"
+   },
+   {
+      "authors" : [
+         "Hersh, Marion",
+         "Moss, Gloria"
+      ],
+      "doi" : null,
+      "eid" : "101979",
+      "rest" : "Journal of International Women's Studies, 5(3), pp. 6-21.",
+      "title" : "Heresy and orthodoxy: challenging established paradigms and disciplines.",
+      "type" : "article",
+      "year" : "2004"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "31539",
+      "rest" : "In: International Federation of Automatic Control Multitrack Conference on Advanced Control Strategies for Social and Economic Systems, Vienna, Austria, ISBN 10.3182/20050703-6-CZ-1902.02309",
+      "title" : "Technology Development and Ethical Decision Making : Identity factors and Social Construction.",
+      "type" : "in",
+      "year" : "2004"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A.",
+         "Baker, N.",
+         "McCloud, M.",
+         "Weightman, B,"
+      ],
+      "doi" : null,
+      "eid" : "31537",
+      "rest" : "In: International Engineering Education Conference, Wolverhampton, England, 2004",
+      "title" : "The Accessible Electronics Laboratory.",
+      "type" : "in",
+      "year" : "2004"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A.",
+         "Hamburg, I."
+      ],
+      "doi" : null,
+      "eid" : "31538",
+      "rest" : "In: 7th International Conference on Work with Computing Systems, Kuala Lumpa, Malaysia, 2004",
+      "title" : "Working with Disabled End-Users: Training Engineers, Designers and Other Professionals.",
+      "type" : "in",
+      "year" : "2004"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A.",
+         "Williamson, R."
+      ],
+      "doi" : null,
+      "eid" : "31540",
+      "rest" : "In: Engineering Education in Sustainable Development Conference, Barcelona, Spain, 2004",
+      "title" : "Teaching About the WEEE Directive.",
+      "type" : "in",
+      "year" : "2004"
+   },
+   {
+      "authors" : [
+         "Stapleton, L.",
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "31593",
+      "rest" : "In: International Federation of Automatic Control Multitrack Conference on Advanced Control Strategies for Social and Economic Systems, Vienna, Austria",
+      "title" : "Blowing the Whistle on Social Order in Engineering.",
+      "type" : "in",
+      "year" : "2004"
+   },
+   {
+      "authors" : [
+         "Baker, N.",
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102521",
+      "rest" : "In: Gender Research Forum, London, England, 2003",
+      "title" : "Disability and Multiple Discrimination.",
+      "type" : "in",
+      "year" : "2003"
+   },
+   {
+      "authors" : [
+         "Baker, N.",
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102522",
+      "rest" : "In: Disability Studies Association Conference, Lancaster, England, 2003",
+      "title" : "Statistics Relating to Disabled People in Scotland.",
+      "type" : "in",
+      "year" : "2003"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : "10.3182/20020721-6-ES-1901.01424",
+      "eid" : "102458",
+      "rest" : "In: 15th IFAC World Congress, Barcelona, 21-26 July 2002, p. 1422.",
+      "title" : "The Application of Soft Systems Methodologies to Understanding and Resolving Conflicts.",
+      "type" : "in",
+      "year" : "2003"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : "10.3182/20020721-6-ES-1901.01450",
+      "eid" : "102462",
+      "rest" : "In: 15th IFAC Congress, Barcelona, Spain, 21-26 Jul 2002, p. 1448.",
+      "title" : "Ethical Analysis of Automation: A Comparison of Different Ethical Theories Through Case Studies.",
+      "type" : "in",
+      "year" : "2003"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A.",
+         "Worrall, K."
+      ],
+      "doi" : null,
+      "eid" : "31410",
+      "rest" : "In: IEEE Symposium on Assistive Technology, Glasgow, UK, 2003",
+      "title" : "Design Issues in the Development of Communication Devices for Deafblind People.",
+      "type" : "in",
+      "year" : "2003"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A.",
+         "Worrall, K.",
+         "Johnson, M.A."
+      ],
+      "doi" : null,
+      "eid" : "31411",
+      "rest" : "In: 7th Conference of the Association for the Advancement of Assistive Technology in Europe: AAATE 2003, Dublin, Ireland, pp. 495-499.",
+      "title" : "Survey of AT for Deafblind People: State of the Art and New Developments.",
+      "type" : "in",
+      "year" : "2003"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "31413",
+      "rest" : "In: IFAC 8th Symposium on Automated Systems Based on Human Skill and Knowledge, Gothenburg, Sweden, 2003",
+      "title" : "Ethical Analysis of the Information Society.",
+      "type" : "in",
+      "year" : "2003"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A.",
+         "Johnson, M.A."
+      ],
+      "doi" : null,
+      "eid" : "33030",
+      "rest" : "Springer: London, UK. ISBN 9781852333829",
+      "title" : "Assistive Technology for the Hearing Impaired, Deaf and Deafblind.",
+      "type" : "book",
+      "year" : "2003"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A.",
+         "Moss, G."
+      ],
+      "doi" : null,
+      "eid" : "31327",
+      "rest" : "In: Association for the Advancement of Assistive Technology in Europe AAATE, Dublin, Eire, 2003",
+      "title" : "Interdisciplinary Approaches to AT: The Barriers and How to Overcome Them.",
+      "type" : "in",
+      "year" : "2003"
+   },
+   {
+      "authors" : [
+         "Hersh, MA"
+      ],
+      "doi" : null,
+      "eid" : "31412",
+      "rest" : "In: IFAC workshop on Technology and international Stability, SWIIS 2003, Waterford, Ireland",
+      "title" : "The ethics of military work:What can be learnt from the application of ethical theories.",
+      "type" : "in",
+      "year" : "2003"
+   },
+   {
+      "authors" : [
+         "Stapleton, L.",
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "31465",
+      "rest" : "In: IFAC workshop on Technology and international Stability, SWIIS 2003, Waterford, Ireland, 2003",
+      "title" : "Exploring the Deep Structures of Ethics in Engineering Technology: Design and Deloyment Methodology.",
+      "type" : "in",
+      "year" : "2003"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A,"
+      ],
+      "doi" : null,
+      "eid" : "102525",
+      "rest" : "In: CVHI 2002: Conference and Workshop on Assistive Technologies for People with Vision and Hearing Impairments, Granada, Spain, 2002",
+      "title" : "Design Issues in Assistive Technology: Application to Alarm and Alerting Devices for Deaf and Hearing Impaired People.",
+      "type" : "in",
+      "year" : "2002"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102524",
+      "rest" : "In: Conference on Engineering Education in Sustainable Development, Delft, Holland, 2002",
+      "title" : "Eco-Design for All: Incorporating Sustainable and Accessible Design Into the Engineering Curriculum.",
+      "type" : "in",
+      "year" : "2002"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102209",
+      "rest" : "In: CVHI 2002: Conference and Workshop on Assistive Technologies for People with Vision and Hearing Impairments, Granada, Spain, 2002, (Unpublished)",
+      "title" : "Ethical Issues in Assistive Technology.",
+      "type" : "in",
+      "year" : "2002"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102526",
+      "rest" : "In: 6th International Conference on Development and Application Systems, Suceava, Romania, 2002",
+      "title" : "Using Fuzzy Methods and Data Mining for Improving Manufacturing Processes.",
+      "type" : "in",
+      "year" : "2002"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : "10.1016/S1367-5788(02)00025-1",
+      "eid" : "101981",
+      "rest" : "Annual Reviews in Control, 26(2), pp. 243-262.",
+      "title" : "Whistleblowers — heroes or traitors?: Individual and collective responsibility for ethical behaviour.",
+      "type" : "article",
+      "year" : "2002"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A.",
+         "Johnson, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102207",
+      "rest" : "In: CVHI 2002: Conference and Workshop on Assistive Technologies for People with Vision and Hearing Impairments, Granada, Spain, 2002, (Unpublished)",
+      "title" : "Assistive Technology for Deafblind People: Current State-of-the-Art, Design and End-User Issues.",
+      "type" : "in",
+      "year" : "2002"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A.",
+         "Johnson, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102523",
+      "rest" : "In: European Medical &amp; Biological Engineering Conference (EMBEC), Vienna, Austria, 4-8 Dec 2002",
+      "title" : "Assistive Technology for Independence: Unsolved Problems for Dual Sensory Impaired and Deafblind People.",
+      "type" : "in",
+      "year" : "2002"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A.",
+         "Johnson, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102527",
+      "rest" : "In: 2nd Annual IEE Symposium on Engineering Education, London, England, 2002",
+      "title" : "Electrical Assistive Technologies for the Hearing, Vision and Mobility Impaired.",
+      "type" : "in",
+      "year" : "2002"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A.",
+         "Johnson, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102210",
+      "rest" : "In: CVHI 2004: Conference and Workshop on Assistive Technologies for People with Vision and Hearing Impairments, Granada, Spain, 2004, (Unpublished)",
+      "title" : "Mobility Assistive Technology for Vision Impaired and Blind People.",
+      "type" : "in",
+      "year" : "2002"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102528",
+      "rest" : "In: WACRA, Vienna, Austria, 2001",
+      "title" : "Ecodesign for All.",
+      "type" : "in",
+      "year" : "2001"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102534",
+      "rest" : "In: Assistive Technology-Added Value to the Quality of Life: (AAATE '01), Ljubljana, Slovenia, 2001",
+      "title" : "Increasing Social Inclusion and Participation for People with Disabilities, the Role of Education and Training: A New Leonardo Project.",
+      "type" : "in",
+      "year" : "2001"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102529",
+      "rest" : "In: SWISS 2001, Vienna, Austria, 2001",
+      "title" : "Technology Change, Technology Transfer and Ethics.",
+      "type" : "in",
+      "year" : "2001"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102463",
+      "rest" : "In: SWISS 2001, Vienna, Austria",
+      "title" : "Whistleblowers - Heroes or Traitors? Individual and Collective Responsibility for Ethical Behaviour.",
+      "type" : "in",
+      "year" : "2001"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A.",
+         "Hamburg, I."
+      ],
+      "doi" : null,
+      "eid" : "102556",
+      "rest" : "In: 10th International Conference on System Modelling and Control, Zakopane, Poland, 2001",
+      "title" : "The Application of Fuzzy Techniques and Data Mining to Sustainable Design.",
+      "type" : "in",
+      "year" : "2001"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A.",
+         "Johnson, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102557",
+      "rest" : "In: CVHI 2001, Castelvecchio Pascoli, Italy, 2001",
+      "title" : "Assistive Technology: Making it Accessible to Science and Engineering Students.",
+      "type" : "in",
+      "year" : "2001"
+   },
+   {
+      "authors" : [
+         "Hersh, Marion",
+         "Dimirovski, G. M."
+      ],
+      "doi" : null,
+      "eid" : "101943",
+      "rest" : "In: Dimirovski, G. M. (ed.) Conflict Management and Resolution in Regions of Long Confronted Nations (Supplemental Ways for Improving International Stability), A Proceedings Volume from the 7th IFAC Workshop Ohrid, Republic of Macedonia, 22-24 May 2000. Series: IFAC proceedings series. Pergamon. ISBN 9780080436906",
+      "title" : "The ethics of military work: a guide for scientists and engineers.",
+      "type" : "in",
+      "year" : "2001"
+   },
+   {
+      "authors" : [
+         "Sutherland, R.",
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102560",
+      "rest" : "In: CVHI 2001, Castelvecchio Pascoli, Italy, 2001",
+      "title" : "Inexpensive Pure Tone Audiometer.",
+      "type" : "in",
+      "year" : "2001"
+   },
+   {
+      "authors" : [
+         "Teo, J.",
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102559",
+      "rest" : "In: CVHI 2001, Castelvecchio Pascoli, Italy, 2001",
+      "title" : "An Improved Design Vibrating Alarm Clock for Deafblind People.",
+      "type" : "in",
+      "year" : "2001"
+   },
+   {
+      "authors" : [
+         "Hersh, Marion"
+      ],
+      "doi" : "10.1109/17.865903",
+      "eid" : "102020",
+      "rest" : "IEEE Transactions on Engineering Management, 47(3), pp. 345-359.",
+      "title" : "The changing position of women in engineering worldwide.",
+      "type" : "article",
+      "year" : "2000"
+   },
+   {
+      "authors" : [
+         "Hersh, M. A."
+      ],
+      "doi" : "10.1049/esej:20000105",
+      "eid" : "102021",
+      "rest" : "Engineering Science and Education Journal, 9(1), pp. 13-19.",
+      "title" : "Environmental ethics for engineers.",
+      "type" : "article",
+      "year" : "2000"
+   },
+   {
+      "authors" : [
+         "Hamburg, I.",
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102565",
+      "rest" : "In: Annual Conference of Romanian Foundation for Promotion of Quality, Petrosani, Romania, 2000",
+      "title" : "The Use of Soft Methods and Data Mining to Support Engineering Design.",
+      "type" : "in",
+      "year" : "2000"
+   },
+   {
+      "authors" : [
+         "Hamburg, I.",
+         "Hersh, M.A.",
+         "Padeanu, L."
+      ],
+      "doi" : null,
+      "eid" : "102684",
+      "rest" : "In: 4th International Conference on Application of Fuzzy Systems and Soft Computing: ICAFS 2000, Siegen, Germany, 27-29 Jun 2000, ISBN 9783933609069",
+      "title" : "Integration of Soft Sustainable Computing Methods Into Engineering Design Environments.",
+      "type" : "in",
+      "year" : "2000"
+   },
+   {
+      "authors" : [
+         "Hamburg, I.",
+         "Hersh, M.A.",
+         "Padeanu, L."
+      ],
+      "doi" : null,
+      "eid" : "102686",
+      "rest" : "In: International Symposium on Systems Theory (SINTES 10), Craiova, Romania, 25-26 May 2000, ISBN 9789739883665",
+      "title" : "Tools for Supporting Knowledge Distribution in Organizations: A Comparative Approach.",
+      "type" : "in",
+      "year" : "2000"
+   },
+   {
+      "authors" : [
+         "Hamburg, Ileana",
+         "Hersh, Marion",
+         "Balanica, Stefan"
+      ],
+      "doi" : null,
+      "eid" : "102019",
+      "rest" : "Annals of the “Stefan cel Mare” University of Suceava, The Electrical Section, 13, pp. 36-43.",
+      "title" : "Improving decision making by integrating web-supported data mining in distributed product development environments.",
+      "type" : "article",
+      "year" : "2000"
+   },
+   {
+      "authors" : [
+         "Hersh, M. A.",
+         "Ionescu, B.B."
+      ],
+      "doi" : null,
+      "eid" : "101983",
+      "rest" : "OPTIMUM Q Journal, 3-4, pp. 204-213.",
+      "title" : "Quality issues in open and distance learning: meeting the needs of students with disabilities.",
+      "type" : "article",
+      "year" : "2000"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102570",
+      "rest" : "In: 7th IFAC Workshop: Supplemental Ways for Improving International Stability (SWIIS 2000), Ohrid, Macedonia, 22-24 May 2000",
+      "title" : "The Ethics of Military Work: A Guide for Scientists and Engineers.",
+      "type" : "in",
+      "year" : "2000"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102569",
+      "rest" : "In: 17th International WACRA Europe Conference, Vipiteno, Italy, 2000",
+      "title" : "Scientists, Engineers, the Policy Process and Sustainable Development.",
+      "type" : "in",
+      "year" : "2000"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A.",
+         "Hamburg, I.",
+         "Padeanu, I."
+      ],
+      "doi" : null,
+      "eid" : "102689",
+      "rest" : "In: HAAMAHA 2000: Human Aspects of Advanced Manufacturing: Agility and Hybrid Automation III, Krakow, Poland, 27-30 Aug 2000",
+      "title" : "Integration of Workflow Management Systems with other Supporting Software Tools.",
+      "type" : "in",
+      "year" : "2000"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A.",
+         "Hamnurg, I.",
+         "Engert, S."
+      ],
+      "doi" : null,
+      "eid" : "102687",
+      "rest" : "In: 7th IFAC Symposium: Automated Systems Based on Human Skill (Joint Design of Technology and Organisation), Aachen, Germany, 15-17 Jun 2000, ISBN 9780080432540",
+      "title" : "Learning Through Co-Operation and the Use of New Technologies: Opportunity or Threat for Women?",
+      "type" : "in",
+      "year" : "2000"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A.",
+         "Ionescu, B.B."
+      ],
+      "doi" : null,
+      "eid" : "102567",
+      "rest" : "In: Association for the Advancement of Assistive Technology in Europe (AAATE), Hatfield, England, 2000",
+      "title" : "Distance Learning for People with Mobility Impairments.",
+      "type" : "in",
+      "year" : "2000"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A.",
+         "Ionescu, B.B."
+      ],
+      "doi" : null,
+      "eid" : "102564",
+      "rest" : "In: Annual Conference of Romanian Foundation for Promotion of Quality, Petrosani, Romania, 2000",
+      "title" : "Quality Issues in Open and Distance Learning: Meeting the Needs of Students with Disabilities.",
+      "type" : "in",
+      "year" : "2000"
+   },
+   {
+      "authors" : [
+         "Hersh, Marion A."
+      ],
+      "doi" : "10.1109/5326.777075",
+      "eid" : "102022",
+      "rest" : "IEEE Transactions on Systems, Man, and Cybernetics, Part C: Applications and Reviews, 29(3), pp. 395-408.",
+      "title" : "Sustainable decision making: the role of decision support systems.",
+      "type" : "article",
+      "year" : "1999"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102690",
+      "rest" : "In: EUFIT '99 : 7th European Congress on Intelligent Techniques and Soft Computing, Aachen, Germany, 13-16 Sep 1999, ISBN 9783896538086",
+      "title" : "The Application of Fuzzy Methods to Sustainable Decision Making.",
+      "type" : "in",
+      "year" : "1999"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102472",
+      "rest" : "In: 14th IFAC World Congress, Beijing, China, 5-9 Jul 1999",
+      "title" : "The Application of Petri Nets to Modelling Historical Processes.",
+      "type" : "in",
+      "year" : "1999"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : "10.1049/ic:19990552",
+      "eid" : "102694",
+      "rest" : "In: IEE Seminar on Engineering and the Environment - How It Affects You!, London, England, 29 Apr 1999, 7/1-7/4.",
+      "title" : "Environmental Ethics for Engineers.",
+      "type" : "in",
+      "year" : "1999"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102465",
+      "rest" : "In: 3rd Annual Conference of the Romanian Mathematical Sciences Society, Craiova, Romania, 1999",
+      "title" : "Fuzzy Approaches to 'Green Design' with Examples from the Computer Industry.",
+      "type" : "in",
+      "year" : "1999"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102691",
+      "rest" : "In: WACRA Europe Conference, Kaunas, Lithuania, 7-10 Jul 1999",
+      "title" : "Local Agenda 21: The Role of Engineers and Scientists.",
+      "type" : "in",
+      "year" : "1999"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102473",
+      "rest" : "In: 14th IFAC World Congress, Beijing, China, 5-9 Jul 1999",
+      "title" : "New Technology: Gender and Employment.",
+      "type" : "in",
+      "year" : "1999"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A.",
+         "Hamburg, I."
+      ],
+      "doi" : null,
+      "eid" : "102692",
+      "rest" : "In: 3rd International Conference on Engineering Design and Automation (EDA'99), Vancouver, B.C., Canada, 1-4 Aug 1999",
+      "title" : "The Application of New Technology to Support Life Long Learning in Modern Industry: Gender Specific Aspects.",
+      "type" : "in",
+      "year" : "1999"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A.",
+         "Hamburg, I."
+      ],
+      "doi" : null,
+      "eid" : "102696",
+      "rest" : "In: International Conference on Computational Intelligence for Modelling, Control and Automation (CIMCA'99), Vienna, Austria, 17-19 Feb 1999",
+      "title" : "Fuzzy Logic and Green Design: A New Approach.",
+      "type" : "in",
+      "year" : "1999"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A.",
+         "Hamburg, I."
+      ],
+      "doi" : null,
+      "eid" : "102698",
+      "rest" : "In: 18th International Association of Science and Technology for Development (IASTED), Innsbruck, Austria, 1999",
+      "title" : "Fuzzy Methods for Efficient Knowledge Management: Application to 'Green' Design Processes.",
+      "type" : "in",
+      "year" : "1999"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A.",
+         "Hamburg, I."
+      ],
+      "doi" : null,
+      "eid" : "102693",
+      "rest" : "In: 3rd International Conference on Engineering Design and Automation (EDA'99), Vancouver, B.C., Canada, 1-4 Aug 1999",
+      "title" : "Integration of Soft Sustainable Computing Methods Into Engineering Design Environments.",
+      "type" : "in",
+      "year" : "1999"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A.",
+         "Hamburg, I.",
+         "Florescu, G."
+      ],
+      "doi" : null,
+      "eid" : "102697",
+      "rest" : "In: 47th International Atlantic Economic Conference, Vienna, Austria, 1999",
+      "title" : "The Application of Uncertainty Management Techniques to Sustainable Production in Economies in Transition.",
+      "type" : "in",
+      "year" : "1999"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : "10.1049/cce:19980610",
+      "eid" : "102024",
+      "rest" : "Computing and Control Engineering Journal, 9(6), pp. 289-295.",
+      "title" : "Sustainable decision making and decision support systems.",
+      "type" : "article",
+      "year" : "1998"
+   },
+   {
+      "authors" : [
+         "Hersh, M. A."
+      ],
+      "doi" : "10.1002/(SICI)1099-1743(199811/12)15:6&lt;497::AID-SRES212&gt;3.0.CO;2-A",
+      "eid" : "102026",
+      "rest" : "Systems Research and Behavioral Science, 15(6), pp. 497-510.",
+      "title" : "A systems approach to green design, with illustrations from the computer industry.",
+      "type" : "article",
+      "year" : "1998"
+   },
+   {
+      "authors" : [
+         "Hersh, Marion A."
+      ],
+      "doi" : "10.1109/5326.725339",
+      "eid" : "102025",
+      "rest" : "IEEE Transactions on Systems, Man, and Cybernetics, Part C: Applications and Reviews, 28(4), pp. 528-540.",
+      "title" : "A survey of systems approaches to green design with illustrations from the computer industry.",
+      "type" : "article",
+      "year" : "1998"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : "10.1049/cp:19980295",
+      "eid" : "102699",
+      "rest" : "In: International Conference on Control '98 (UKACC), Swansea, Wales, 1-4 Sep 1998, pp. 590-595. ISBN 085296708X",
+      "title" : "The Changing Position of Women in Engineering Worldwide.",
+      "type" : "in",
+      "year" : "1998"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102700",
+      "rest" : "In: 5th Biennial Participatory Design Conference, Seattle, WA, USA, 12-14 Nov 1998",
+      "title" : "New Technology, Gender and Employment: Mechanisms for Change.",
+      "type" : "in",
+      "year" : "1998"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102701",
+      "rest" : "In: IFAC Conference on Supplementary Ways for Improving International Stability, Sinaia, Romania, 14-16 May 1998, ISBN 9780080432311",
+      "title" : "A Systems Approach to Understanding the Causes of Instability in Nations: A Case Study.",
+      "type" : "in",
+      "year" : "1998"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A.",
+         "Johnson, M.A."
+      ],
+      "doi" : "10.1016/S0967-0661(97)00061-0",
+      "eid" : "102702",
+      "rest" : "Control Engineering Practice, 5(6), pp. 771-778.",
+      "title" : "A study of advanced control systems in the work place.",
+      "type" : "article",
+      "year" : "1997"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A.",
+         "Vezjak, M.",
+         "Stuhler, E.A.",
+         "Mulej, M."
+      ],
+      "doi" : null,
+      "eid" : "102771",
+      "rest" : "In: Vezjak, M., Stuhler, E.A. and Mulej, M. (eds.) Environmental Problem Solving: From Cases and Experiments to Concepts, Knowledge, Tools and Motivation: Proceedings of the 12th International Conference on Case Method Research and Case Method Application. Series: Research on cases and theories. Hampp: München, pp. 84-91. ISBN 9783879882595",
+      "title" : "The green PC: myth or reality?",
+      "type" : "in",
+      "year" : "1997"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : "10.1049/ic:19971222",
+      "eid" : "102728",
+      "rest" : "In: IEE Colloquium on Decision Making and Problem Solving, London, England, 16 Dec 1997, 6/1-6/5.",
+      "title" : "Sustainable Decision Making: The Role of Decision Support Systems.",
+      "type" : "in",
+      "year" : "1997"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102729",
+      "rest" : "In: Transition'97: International Conference on Transition to Advanced Market Institutions and Economies: Systems and Operations Research Challenges, Warsaw, Poland, 18-21 Jun 1997",
+      "title" : "A Systems Approach to the Promotion of International Stability Through the Resolution of Intranational Conflicts.",
+      "type" : "in",
+      "year" : "1997"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102743",
+      "rest" : "In: Transition'97: International Conference on Transition to Advanced Market Institutions and Economies: Systems and Operations Research Challenges, Warsaw, Poland, 18-21 Jun 1997",
+      "title" : "The Transition to Sustainable Transport Systems.",
+      "type" : "in",
+      "year" : "1997"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A.",
+         "Johnson, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102733",
+      "rest" : "In: IFAC Conference on Control of Industrial Systems, Belfort, France, 1997, ISBN 9780080429076",
+      "title" : "Industrial Control, Technology Trends and the Skill Base.",
+      "type" : "in",
+      "year" : "1997"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : "10.1093/imamci/13.2.131",
+      "eid" : "102704",
+      "rest" : "IMA Journal of Mathematical Control and Information, 13(2), pp. 131-149.",
+      "title" : "A comparison of discrete time system representations based on delta and w operators.",
+      "type" : "article",
+      "year" : "1996"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102745",
+      "rest" : "In: 3rd International Conference on Linking Systems Thinking, Innovation, Quality and Entrepreneurship, Maribor, Slovenia, 8-12 Dec 1996, ISBN 9788680085654",
+      "title" : "A Systems Approach to Green Design with Illustrations from the Computer Industry.",
+      "type" : "in",
+      "year" : "1996"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102703",
+      "rest" : "Advances in Information Systems Science, pp. 267-275.",
+      "title" : "A systems model of a sustainable city.",
+      "type" : "article",
+      "year" : "1996"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102731",
+      "rest" : "In: 13th IFAC World Congress, San Francisco, USA, 1996",
+      "title" : "Teleworking: Its Impact on Work Culture and Sustainability.",
+      "type" : "in",
+      "year" : "1996"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A.",
+         "Johnson, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102730",
+      "rest" : "In: 13th IFAC World Congress, San Francisco, USA, 1996",
+      "title" : "A Study of Advanced Control Systems in the Work Place.",
+      "type" : "in",
+      "year" : "1996"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102741",
+      "rest" : "In: 12th International Conference on Case Method Research and Case Method Application, Maribor, Slovenia, 12-15 Nov 1995",
+      "title" : "Environmental Aspects of PC Hardware.",
+      "type" : "in",
+      "year" : "1995"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102746",
+      "rest" : "In: 5th IFAC Symposium on Automated Systems Based on Human Skill, Berlin, Germany, 26-28 Sep 1995",
+      "title" : "The Role of Information Networks in Promoting Sustainable Development.",
+      "type" : "in",
+      "year" : "1995"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102748",
+      "rest" : "In: Inaugural Workshop of the International Institute for General Systems Studies, Slippery Rock, PA, USA., 13-15 Jul 1995",
+      "title" : "A Systems Model of a Sustainable City.",
+      "type" : "in",
+      "year" : "1995"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102749",
+      "rest" : "In: Seminar on Sustainable Development: Responsibility of Engineering Education, Balatonfurd, Hungary, 27-29 Apr 1994",
+      "title" : "Educating Engineers for Sustainability.",
+      "type" : "in",
+      "year" : "1994"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102709",
+      "rest" : "Rusistika, 8, pp. 19-26.",
+      "title" : "Zamyatin’s 'We': a mathematical model society.",
+      "type" : "article",
+      "year" : "1993"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102758",
+      "rest" : "In: 12th IFAC World Congress, Sydney, Australia, 18-23 July 1993, ISBN 0080422160",
+      "title" : "Identification and Control Algorithm for Bilinear Delta Operator Systems.",
+      "type" : "in",
+      "year" : "1993"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102757",
+      "rest" : "In: International Symposium on the Mathematical Theory of Networks and Systems, Regensburg, Germany, 2-6 Aug 1993, ISBN 9783055015731",
+      "title" : "Operator Independent System Representation.",
+      "type" : "in",
+      "year" : "1993"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102754",
+      "rest" : "In: Sustainable Development and Information Technology, Alma Ata, Kazakhstan, 1993",
+      "title" : "The Role of Modelling in Solving Environmental Problems.",
+      "type" : "in",
+      "year" : "1993"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102706",
+      "rest" : "Science, Technology and Society, 11(3), pp. 272-290.",
+      "title" : "The role of scientists and engineers in promoting sustainable development.",
+      "type" : "article",
+      "year" : "1993"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : "10.1080/00207179308934407",
+      "eid" : "102711",
+      "rest" : "International Journal of Control, 57(3), pp. 557-575.",
+      "title" : "The zeros and poles of delta operator systems.",
+      "type" : "article",
+      "year" : "1993"
+   },
+   {
+      "authors" : [
+         "Hersh, Marion",
+         "Baker, Rob"
+      ],
+      "doi" : "10.1109/ICSMC.1993.384788",
+      "eid" : "102755",
+      "rest" : "In: International Conference on Systems Man and Cybernetics, Le Touquet, France, 17-20 Oct 1993, pp. 471-476. ISBN 0780309111",
+      "title" : "Decision Making and Optimisation.",
+      "type" : "in",
+      "year" : "1993"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : "10.1080/00207179208934329",
+      "eid" : "102713",
+      "rest" : "International Journal of Control, 56(3), pp. 563-579.",
+      "title" : "Adaptive algorithms for the simultaneous stabilization and decoupling of time-varying multivariable systems.",
+      "type" : "article",
+      "year" : "1992"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102761",
+      "rest" : "In: International Conference on Nonlinear Circuits and Systems, Moscow, Russia, 16-18 Jun 1992",
+      "title" : "Delta Transforms for Bilinear Systems.",
+      "type" : "in",
+      "year" : "1992"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102763",
+      "rest" : "In: Pre-Conference to MTNS-91, Hangzhou, China, 1991",
+      "title" : "A Robust Adaptive Algorithm in Delta Operator Formulation.",
+      "type" : "in",
+      "year" : "1992"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102760",
+      "rest" : "In: 2nd IFAC Workshop on System Structure and Control, Prague, Czechoslavakia, 1992",
+      "title" : "Robust Adaptive Control Design for Delta Operator Systems.",
+      "type" : "in",
+      "year" : "1992"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102762",
+      "rest" : "In: MTNS-91, Kobe, Japan, 17-21 June 1992, ISBN 9784895831048",
+      "title" : "Unification of Discrete and Continuous Time Stability Criteria Based on Kharitonov’s Theorem for Uncertain Systems.",
+      "type" : "in",
+      "year" : "1992"
+   },
+   {
+      "authors" : [
+         "Hersh, Marion"
+      ],
+      "doi" : null,
+      "eid" : "102772",
+      "rest" : "In: A Woman's Claim of Right in Scotland: Women, Representation and Politics. Series: Determinations. Polygon: Edinburgh, pp. 102-134. ISBN 9780748661039",
+      "title" : "Women in campaigning groups in Central Scotland.",
+      "type" : "in",
+      "year" : "1991"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : "10.1080/00207178908953422",
+      "eid" : "102714",
+      "rest" : "International Journal of Control, 50(4), pp. 1143-1151.",
+      "title" : "H∞ filtering of multivariable systems.",
+      "type" : "article",
+      "year" : "1989"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : "10.1080/00207178808906092",
+      "eid" : "102716",
+      "rest" : "International Journal of Control, 47(5), pp. 1243-1257.",
+      "title" : "Adaptive identification and control of time-varying stochastic systems using 'semi-periodic' functions.",
+      "type" : "article",
+      "year" : "1988"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102764",
+      "rest" : "In: Identification and System Parameter Estimation 1988: 8th IFAC/IFORS Symposium, Beijing, China, 27-31 Aug 1988",
+      "title" : "Persistence of Excitation in Non-Minimum Phase Systems.",
+      "type" : "in",
+      "year" : "1988"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : "10.1093/imamci/4.4.321",
+      "eid" : "102718",
+      "rest" : "IMA Journal of Mathematical Control and Information, 4(4), pp. 321-339.",
+      "title" : "Adaptive algorithms for the simultaneous stabilization and decoupling of multivariable systems.",
+      "type" : "article",
+      "year" : "1987"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102765",
+      "rest" : "In: 10th IFAC World Congress, Munich, Germany, 1987",
+      "title" : "Filtering of Multivariable Systems.",
+      "type" : "in",
+      "year" : "1987"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : "10.1080/00207178708933708",
+      "eid" : "102723",
+      "rest" : "International Journal of Control, 45(1), pp. 33-45.",
+      "title" : "Multiloop self-tuning control: decoupling and pole assignment regulators for n-input n-output stochastic systems.",
+      "type" : "article",
+      "year" : "1987"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102719",
+      "rest" : "Control and Computers, 15, pp. 53-58.",
+      "title" : "On the simultaneous stabilisation and decoupling of multivariable systems.",
+      "type" : "article",
+      "year" : "1987"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A.",
+         "Zarrop, M.B."
+      ],
+      "doi" : "10.1080/00207178708933846",
+      "eid" : "102721",
+      "rest" : "International Journal of Control, 45(5), pp. 1789-1802.",
+      "title" : "Globally convergent adaptive pole assignment for a class of non-minimum-phase stochastic systems.",
+      "type" : "article",
+      "year" : "1987"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A.",
+         "Zarrop, M.B."
+      ],
+      "doi" : "10.1002/oca.4660070205",
+      "eid" : "102725",
+      "rest" : "Optimal Control Applications and Methods, 7(2), pp. 153-161.",
+      "title" : "Stochastic adaptive control of non-minimum phase systems.",
+      "type" : "article",
+      "year" : "1986"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : "10.1109/CDC.1986.267347",
+      "eid" : "102766",
+      "rest" : "In: IEEE Conference on Decision and Control, Athens, Greece, 10-12 Dec 1986, pp. 1923-1930.",
+      "title" : "Adaptive Identification and Control of Time-Varying Stochastic Systems Using 'Semi-Periodic' Functions.",
+      "type" : "in",
+      "year" : "1986"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : "10.1093/imamci/3.1.29",
+      "eid" : "102724",
+      "rest" : "IMA Journal of Mathematical Control and Information, 3(1), pp. 29-41.",
+      "title" : "Multiloop self-tuning control: decoupling and pole-assignment regulators for 2-input 2-output systems.",
+      "type" : "article",
+      "year" : "1986"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A.",
+         "Zarrop, M.B."
+      ],
+      "doi" : "10.1080/00207178608933527",
+      "eid" : "102727",
+      "rest" : "International Journal of Control, 43(4), pp. 1115-1123.",
+      "title" : "Strong consistency of a class of recursive stochastic gradient algorithms.",
+      "type" : "article",
+      "year" : "1986"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102768",
+      "rest" : "In: IEEE Conference on Control, Cambridge, England, 1985",
+      "title" : "Multiloop Self-Tuning Control: Decoupling and Pole Assignment Regulators for 2-Input Systems.",
+      "type" : "in",
+      "year" : "1985"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102769",
+      "rest" : "In: 7th IFAC/IFORS Symposium on Identification and System Parameter Estimation, York, England, 3-7 Jul 1985, ISBN 9780080325606",
+      "title" : "On Strong Consistency af a Class of Stochastic Approximation Algorithms for the Identification of Time Varying Non-Minimum Phase Systems.",
+      "type" : "in",
+      "year" : "1985"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A."
+      ],
+      "doi" : null,
+      "eid" : "102767",
+      "rest" : "In: IASTED International Symposium, Paris, France, 19-21 Jun 1985, ISBN 9780889860834",
+      "title" : "On the Simultaneous Stabilisation and Decoupling of Multivariable Systems.",
+      "type" : "in",
+      "year" : "1985"
+   },
+   {
+      "authors" : [
+         "Hersh, M.A.",
+         "Zarrop, M.B."
+      ],
+      "doi" : null,
+      "eid" : "102770",
+      "rest" : "In: IEEE Conference on Applications of Adaptive and Multivariable Control, Hull, England, 19-21 July 1982",
+      "title" : "Stochastic Approximation Control of Time Varying Non- Minimum Phase Systems.",
+      "type" : "in",
+      "year" : "1982"
+   }
+]

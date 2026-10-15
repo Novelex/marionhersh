@@ -2,6 +2,7 @@
   <div class="wrap">
     <p class="crumbs"><a href="{{ROOT}}">Home</a> <span aria-hidden="true">/</span> Publications</p>
     <h1>Publications</h1>
+    <p class="head-stats">{{STAT_total}} publications, including {{STAT_articles}} journal articles and {{STAT_books}} books, since {{STAT_first}}</p>
   </div>
 </div>
 <div class="wrap page-body single">
@@ -26,9 +27,11 @@
       </li>
       <li><a href="#book-chapters">Book Chapters</a></li>
       <li><a href="#on-line-encyclopedia-chapters">On-line Encyclopedia Chapters</a></li>
+      <li><a href="#complete-list">Complete list of publications</a></li>
     </ul>
   </nav>
   <div class="prose">
 {{INCLUDE src/publications.frag.html}}
+{{INCLUDE src/complete-pubs.frag.html}}
   </div>
 </div>

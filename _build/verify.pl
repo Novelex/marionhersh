@@ -55,9 +55,11 @@ for my $p (@pairs) {
   open my $fa, '>', "$tmp/v-a.txt"; print $fa "$a\n"; close $fa;
   open my $fb, '>', "$tmp/v-b.txt"; print $fb "$b\n"; close $fb;
   my $d = `git diff --no-index --word-diff=plain --word-diff-regex="[^[:space:]]+" "$tmp/v-a.txt" "$tmp/v-b.txt"`;
-  my @ch = $d =~ /(\[-.*?-\]|\{\+.*?\+\})/g;
+  my @removed = $d =~ /(\[-.*?-\])/g;   # original text missing from the new page: not allowed
+  my @added   = $d =~ /{\+(.*?)\+}/g; # new text added to the page: allowed (site owner, 15 Oct 2026)
   my $wa = () = $a =~ /\S+/g;
-  printf "%-60s %6d words  %s\n", $new, $wa, @ch ? scalar(@ch) . " differences" : "identical";
-  if (@ch) { $problems++; print "    $_\n" for @ch[0 .. ($#ch < 15 ? $#ch : 15)] }
+  my $nadd = 0; $nadd += () = $_ =~ /\S+/g for @added;
+  printf "%-60s %6d original words  %s\n", $new, $wa, @removed ? scalar(@removed) . " REMOVED" : "all present" . ($nadd ? ", $nadd words added" : "");
+  if (@removed) { $problems++; print "    $_\n" for @removed[0 .. ($#removed < 15 ? $#removed : 15)] }
 }
-print $problems ? "\n$problems page(s) differ from the original\n" : "\nAll pages match the original text word for word\n";
+print $problems ? "\n$problems page(s) are missing original text\n" : "\nEvery page contains all of the original text\n";

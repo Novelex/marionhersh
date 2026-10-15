@@ -530,9 +530,68 @@ tbody th[scope="row"] {
 }
 .recent-grid {
   display: grid;
-  grid-template-columns: minmax(0, 16rem) minmax(0, 1fr);
-  gap: 1rem 3rem;
-  align-items: baseline;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 15rem);
+  gap: 2rem 4rem;
+  align-items: start;
+}
+.recent h2 {
+  margin-bottom: 1.25rem;
+}
+.poster {
+  margin: 0;
+}
+.poster img {
+  display: block;
+  width: 100%;
+  border: 1px solid var(--rule);
+  box-shadow: 0 2px 0 var(--rule);
+}
+.poster figcaption {
+  margin-top: 0.6rem;
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+/* Publications in numbers */
+.facts {
+  background: var(--paper-2);
+  border-bottom: 1px solid var(--rule);
+}
+.facts .wrap {
+  padding-top: 2rem;
+  padding-bottom: 1.75rem;
+}
+.facts-list {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 0 0 1.25rem;
+}
+.facts-list div {
+  display: flex;
+  flex-direction: column-reverse;
+  padding-left: 1rem;
+  border-left: 4px solid var(--accent);
+}
+.facts-list dd {
+  margin: 0;
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: clamp(1.8rem, 3.6vw, 2.6rem);
+  line-height: 1.1;
+  color: var(--band);
+}
+.facts-list dt {
+  margin-top: 0.25rem;
+  color: var(--ink-2);
+}
+.facts-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.75rem;
+  margin: 0;
+  font-weight: 700;
 }
 .recent h2 {
   margin: 0;
@@ -628,6 +687,14 @@ tbody th[scope="row"] {
 @media (max-width: 60rem) {
   .tiles {
     grid-template-columns: minmax(0, 1fr);
+  }
+}
+@media (max-width: 48rem) {
+  .facts-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .poster {
+    max-width: 15rem;
   }
 }
 @media (max-width: 48rem) {
@@ -922,4 +989,167 @@ tbody th[scope="row"] {
   .toc {
     padding: 1.1rem 1.1rem;
   }
+}
+
+/* Publications: totals under the page title, and the complete list */
+.page-head .head-stats {
+  margin: 0.9rem 0 0;
+  font-size: 1.15rem;
+  color: var(--band-ink-2);
+}
+.complete h3 {
+  margin-top: 2rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 2px solid var(--accent);
+  font-size: 1.3rem;
+}
+
+/* ---------- Display options bar ---------- */
+.display-bar {
+  background: var(--paper-2);
+  border-bottom: 1px solid var(--rule);
+  font-size: 0.95rem;
+}
+.display-bar[hidden] {
+  display: none;
+}
+.display-bar .wrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.5rem 1rem;
+  padding-top: 0.45rem;
+  padding-bottom: 0.45rem;
+}
+.display-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.display-bar button {
+  min-height: 2.25rem;
+  padding: 0.3rem 0.85rem;
+  font: inherit;
+  font-weight: 700;
+  color: var(--ink);
+  background: var(--card);
+  border: 2px solid var(--ink-2);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.display-bar button:hover {
+  border-color: var(--ink);
+}
+.display-bar button[aria-pressed="true"] {
+  color: #ffffff;
+  background: var(--ink);
+  border-color: var(--ink);
+}
+.display-bar button[aria-pressed="true"]::before {
+  content: "✓ ";
+}
+
+/* ---------- Larger text ---------- */
+html.text-large {
+  font-size: 125%;
+}
+
+/* ---------- Images off: show each image's description instead ---------- */
+.img-alt {
+  display: none;
+}
+html.images-off main img {
+  display: none;
+}
+html.images-off a:has(> img:only-child) {
+  display: none;
+}
+html.images-off .img-alt {
+  display: block;
+  margin: 0.5rem 0 1rem;
+  padding: 0.75rem 1rem;
+  border: 2px dashed currentColor;
+  font-style: italic;
+}
+html.images-off .hero-grid {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+/* ---------- Colours off: black text on white, no colour anywhere ---------- */
+html.colours-off {
+  --paper: #ffffff;
+  --paper-2: #ffffff;
+  --card: #ffffff;
+  --ink: #000000;
+  --ink-2: #000000;
+  --rule: #000000;
+  --accent: #000000;
+  --accent-ink: #ffffff;
+  --accent-soft: #ffffff;
+  --band: #ffffff;
+  --band-ink: #000000;
+  --band-ink-2: #000000;
+  --focus: #000000;
+}
+html.colours-off body,
+html.colours-off .hero-band,
+html.colours-off .page-head,
+html.colours-off .site-footer,
+html.colours-off .ethics-band,
+html.colours-off .facts,
+html.colours-off .tiles a,
+html.colours-off .toc,
+html.colours-off .card {
+  background: #ffffff;
+  color: #000000;
+}
+html.colours-off .hero-band,
+html.colours-off .page-head,
+html.colours-off .site-footer {
+  border-top: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+}
+html.colours-off a,
+html.colours-off a:visited,
+html.colours-off h1,
+html.colours-off h2,
+html.colours-off h3,
+html.colours-off .speaker {
+  color: #000000;
+}
+html.colours-off a {
+  text-decoration-color: #000000;
+}
+html.colours-off img {
+  filter: grayscale(1);
+}
+html.colours-off :focus-visible {
+  outline: 3px solid #000000;
+  outline-offset: 3px;
+}
+html.colours-off .button,
+html.colours-off .site-nav a[aria-current="page"] {
+  color: #000000;
+  background: #ffffff;
+  border-color: #000000;
+}
+html.colours-off .display-bar button[aria-pressed="true"] {
+  color: #ffffff;
+  background: #000000;
+}
+html.colours-off .tiles a:hover {
+  background: #ffffff;
+}
+html.colours-off .facts-list dd,
+html.colours-off .page-head .head-stats,
+html.colours-off .poster figcaption {
+  color: #000000;
+}
+html.colours-off .facts-list div {
+  border-left-color: #000000;
+}
+html.colours-off a {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
 }

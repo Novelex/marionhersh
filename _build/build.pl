@@ -35,9 +35,12 @@ my %redirects = ('podcast/' => 'publications/', 'archive/' => 'recent-posts/');
 
 # Assemble the stylesheet and version it, so browsers never use a stale copy
 use Digest::MD5 qw(md5_hex);
-my $css = join '', map { slurp("$B/$_") } qw(css-base.css css-home.css css-inner.css);
+my $css = join '', map { slurp("$B/$_") } qw(css-base.css css-home.css css-inner.css css-a11y.css);
 spit("$O/assets/style.css", $css);
 my $cssver = substr(md5_hex($css), 0, 8);
+
+use JSON::PP;
+my $stats = decode_json(slurp("$B/src/stats.json"));
 
 my $layout = slurp("$B/layout.html");
 $layout =~ s/\{\{CSSVER\}\}/$cssver/g;
@@ -46,6 +49,7 @@ for my $p (@pages) {
   my $root = $dir eq '' ? './' : '../' x (() = $dir =~ m{/}g);
   my $c = slurp("$B/content/$file");
   1 while $c =~ s/\{\{INCLUDE ([\w.\/-]+)\}\}/slurp("$B\/$1")/ge;   # fragments may include fragments
+  $c =~ s/\{\{STAT_(\w+)\}\}/$stats->{$1} \/\/ die "unknown statistic $1"/ge;   # publication totals from research.pl
   my $nav = join "\n", map { sprintf '        <li><a href="{{ROOT}}%s"%s>%s</a></li>', $_->[0], ($_->[0] eq $cur && $dir ne '404/' ? ' aria-current="page"' : ''), $_->[1] } @nav;
   my $h = $layout;
   $h =~ s/\{\{MAINCLASS\}\}/$mc/; $h =~ s/\{\{TITLE\}\}/$title/g; $h =~ s/\{\{DESC\}\}/$desc/g;

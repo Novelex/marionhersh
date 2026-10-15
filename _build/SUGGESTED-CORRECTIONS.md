@@ -76,3 +76,15 @@ Only interface text needed to use the site and for screen readers:
 - The Special Issues and Sessions page was empty on the original site. It now lists three entries copied word for word from the Publications page (the 2018 special issue editorial and the two 2016 special thematic session introductions). Please confirm these are correct, or say what should go on this page.
 - The Archive page was empty on the original site. Its address now opens Recent Posts.
 - The cats photo is the one from the original site. A portrait photograph could be used instead.
+
+## Information added (15 October 2026)
+
+Nothing from the original site has been removed. These additions were made at the site owner's request:
+
+- **Complete list of publications** (Publications page, after the original list): 240 entries from 1982 to 2026. 221 come from the University of Glasgow Enlighten repository (https://eprints.gla.ac.uk/view/author/9066.html). 19 more were found on Crossref under Marion's ORCID iD (0000-0002-4610-8266) or by name, and each was checked against its publisher record (authors, affiliation, journal). The sources are kept in `research/`.
+- **Publications in numbers** (home page): 240 publications, 68 journal articles, 5 books, publishing since 1982, with links to the complete list, ORCID and Enlighten. The totals are calculated from the complete list.
+- **More special issues and sessions** (Special Issues and Sessions page): the 2014 special focus section in the International Journal of Adaptive Control and Signal Processing, and the ICCHP special thematic session introductions from 2020, 2022, 2024 and 2026.
+- **The election poster** is also shown on the home page, next to Recent Posts, linking to the UCU NEC Elections section.
+- **Display options** at the top of every page: "Colours off" (black text on white, photos in greyscale), "Larger text", and "Images off" (each picture is replaced by its written description). The choice is remembered on the visitor's device.
+
+The publications in the complete list that were not already on the original site may be worth adding to the original Publications headings. For example: the 2025 chapters on disabled researchers in AI and on inclusive recommender systems, the 2024 article on immersive technology for autistic students, and the 2021 paper on co-production research with autistic people.

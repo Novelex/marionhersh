@@ -14,10 +14,25 @@
 <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
 <link rel="preload" href="./assets/fonts/source-serif-4-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="./assets/fonts/atkinson-hyperlegible-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="./assets/style.css?v=f37bd150">
+<link rel="stylesheet" href="./assets/style.css?v=11bf408f">
+<script>
+/* Apply saved display options before the page is drawn */
+try { var m = JSON.parse(localStorage.getItem("display-options") || "[]"); for (var i = 0; i < m.length; i++) document.documentElement.classList.add(m[i]); } catch (e) {}
+</script>
+<script src="./assets/display-options.js?v=11bf408f" defer></script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
+<div class="display-bar" id="display-bar" role="region" aria-labelledby="display-label" hidden>
+  <div class="wrap">
+    <span id="display-label">Display options</span>
+    <div class="display-buttons" role="group" aria-labelledby="display-label">
+      <button type="button" data-option="colours-off" aria-pressed="false">Colours off</button>
+      <button type="button" data-option="text-large" aria-pressed="false">Larger text</button>
+      <button type="button" data-option="images-off" aria-pressed="false">Images off</button>
+    </div>
+  </div>
+</div>
 <header class="site-header">
   <div class="wrap">
     <div class="brand">
@@ -50,6 +65,19 @@
   </div>
 </section>
 
+<section class="facts" aria-labelledby="facts-heading">
+  <div class="wrap">
+    <h2 id="facts-heading" class="visually-hidden">My publications in numbers</h2>
+    <dl class="facts-list">
+      <div><dt>Publications</dt><dd>240</dd></div>
+      <div><dt>Journal articles</dt><dd>68</dd></div>
+      <div><dt>Books</dt><dd>5</dd></div>
+      <div><dt>Publishing since</dt><dd>1982</dd></div>
+    </dl>
+    <p class="facts-links"><a href="./publications/#complete-list">Complete list of publications</a> <a href="https://orcid.org/0000-0002-4610-8266">ORCID</a> <a href="https://eprints.gla.ac.uk/view/author/9066.html">University of Glasgow Enlighten</a></p>
+  </div>
+</section>
+
 <div class="work">
   <div class="wrap">
     <p class="statement">My work focuses on the use of technology to overcome the disadvantages experienced by disabled and older people in particular.</p>
@@ -70,8 +98,8 @@
 
 <section class="home-section recent" aria-labelledby="recent-heading">
   <div class="wrap recent-grid">
-    <h2 id="recent-heading"><a href="./recent-posts/">Recent Posts</a></h2>
     <div class="recent-items">
+      <h2 id="recent-heading"><a href="./recent-posts/">Recent Posts</a></h2>
 <p>Link to new article: <a href="./older-autistic-adults-experiences-attitudes-and-support-needs/">Older Autistic Adults’ Experiences, Attitudes and Support Needs</a></p>
 
       <ul class="plain-links">
@@ -79,6 +107,10 @@
         <li><a href="./archive/">Archive</a></li>
       </ul>
     </div>
+    <figure class="poster">
+      <img src="./assets/images/ucu-left-flyer-2026.png" width="631" height="891" loading="lazy" alt="UCU Left election flyer: Vote Marion Hersh for UK-elected HE.">
+      <figcaption><a href="./trade-union/#ucu-nec-elections">UCU NEC Elections</a></figcaption>
+    </figure>
   </div>
 </section>
 

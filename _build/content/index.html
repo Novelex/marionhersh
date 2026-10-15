@@ -11,6 +11,19 @@
   </div>
 </section>
 
+<section class="facts" aria-labelledby="facts-heading">
+  <div class="wrap">
+    <h2 id="facts-heading" class="visually-hidden">My publications in numbers</h2>
+    <dl class="facts-list">
+      <div><dt>Publications</dt><dd>{{STAT_total}}</dd></div>
+      <div><dt>Journal articles</dt><dd>{{STAT_articles}}</dd></div>
+      <div><dt>Books</dt><dd>{{STAT_books}}</dd></div>
+      <div><dt>Publishing since</dt><dd>{{STAT_first}}</dd></div>
+    </dl>
+    <p class="facts-links"><a href="{{ROOT}}publications/#complete-list">Complete list of publications</a> <a href="https://orcid.org/0000-0002-4610-8266">ORCID</a> <a href="https://eprints.gla.ac.uk/view/author/9066.html">University of Glasgow Enlighten</a></p>
+  </div>
+</section>
+
 <div class="work">
   <div class="wrap">
     <p class="statement">My work focuses on the use of technology to overcome the disadvantages experienced by disabled and older people in particular.</p>
@@ -31,14 +44,18 @@
 
 <section class="home-section recent" aria-labelledby="recent-heading">
   <div class="wrap recent-grid">
-    <h2 id="recent-heading"><a href="{{ROOT}}recent-posts/">Recent Posts</a></h2>
     <div class="recent-items">
+      <h2 id="recent-heading"><a href="{{ROOT}}recent-posts/">Recent Posts</a></h2>
 {{INCLUDE src/recent-link.frag.html}}
       <ul class="plain-links">
         <li><a href="{{ROOT}}trade-union/#interview">Interview with Marion Hersh and Christina Paine on being a disabled UCU activist</a></li>
         <li><a href="{{ROOT}}archive/">Archive</a></li>
       </ul>
     </div>
+    <figure class="poster">
+      <img src="{{ROOT}}assets/images/ucu-left-flyer-2026.png" width="631" height="891" loading="lazy" alt="UCU Left election flyer: Vote Marion Hersh for UK-elected HE.">
+      <figcaption><a href="{{ROOT}}trade-union/#ucu-nec-elections">UCU NEC Elections</a></figcaption>
+    </figure>
   </div>
 </section>
 
