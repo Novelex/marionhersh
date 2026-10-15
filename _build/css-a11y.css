@@ -148,3 +148,31 @@ html.colours-off a {
   text-decoration: underline;
   text-decoration-thickness: 2px;
 }
+
+/* Phones: the three buttons on one row; the label stays available to screen readers */
+@media (max-width: 40rem) {
+  .display-bar .wrap {
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+  }
+  #display-label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
+  .display-buttons {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.4rem;
+    width: 100%;
+  }
+  .display-bar button {
+    min-height: 2.6rem;
+    padding: 0.3rem 0.25rem;
+    font-size: 0.88rem;
+    line-height: 1.2;
+  }
+}
